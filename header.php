@@ -1,0 +1,122 @@
+<!--Code edited by Alivia Hossain, SDSF AI/DS Sem 1-->
+<div class="header-wrapper">
+
+    <div class="top-bar"></div>
+
+    <div class="school-title">
+        <h1>School of Data Science and Forecasting</h1>
+    </div>
+
+    <header class="navbar">
+        <div class="navbar-left">
+            <img src="/photoes/sdsf_logo.jpg" class="dept-logo">
+            <div class="title">
+                
+            </div>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="academics.php">Academics</a>
+            <a href="admission.php">Admission</a>
+           
+            <!--This is the Scholarship part-->
+            <li class="scholarship-item">
+                <a href="#" class="scholarship-toggle">Scholarships</a>
+
+                <ul class="scholarship-menu">
+                    <li><a href="https://www.aicte.gov.in/schemes/students-development-schemes/PG-Scholarship-Scheme/General-instruction">GATE Scholarships</a></li>
+                    <li><a href="https://www.medhavikalyan.mp.gov.in/MMVY.aspx">Mukhyamantri Medhavi Vidhyarthi Yojana</a></li>
+                    <li><a href="https://tribal.mp.gov.in/MPTAAS">MPTAASC</a></li>
+                </ul>
+            </li>
+
+
+
+            <!--This is the placement part -->
+           <li class="training-item">
+                <a href="#" class="training-toggle">Teaching</a>
+
+                <ul class="training-menu">
+
+                    <li>
+                        <ol class="program-list">
+
+                            <li><a href="ds.php">M.Tech. (Data Science)</a></li>
+
+                            <li><a href="bda.php">M.Tech. (Big Data Analytics)</a></li>
+
+                            <li><a href="exeds.php">M.Tech. (Executive in Data Science)</a></li>
+
+                            <li><a href="aids.php">M.Tech. (Integrated AI & DS)</a></li>
+
+                            <li><a href="mba.php">M.B.A. (Business Analytics)</a></li>
+
+                            <li><a href="msc.php">M.Sc. (Data Science & Analytics)</a></li>
+
+                        </ol>
+                    </li>
+
+                </ul>
+            </li>
+
+
+
+                  
+            <a href="events.php">Events</a>
+            <a href="#" style="position: relative; display: inline-block;">
+                Workspace
+                <span class="soon-tag">Soon</span>
+            </a>
+
+            <div class="navbar-right">
+              <img src="/photoes/davv_logo.png" class="university-logo">
+           
+             </div>
+
+
+        </nav>
+
+            
+           <!-- <div class="hamburger-menu-container">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="hamburger-menu">
+                    <li><a href="#">Teachers Dashboard</a></li>
+                    <li><a href="#">Student Dashboard</a>
+                    Contributors section already inside about <li><a href="#" onclick="openContributorModal(event)">Contributors</a></li>
+                </ul>
+                
+            </div>    -->
+            
+
+        </div>
+       
+
+    </header>
+
+    <!--Script code for placement so that it opens in everysubpage-->
+    <script>
+        document.addEventListener("click", (e) => {
+            const btn = e.target.closest(".ts-btn");
+            if (!btn) return;  // not clicking TS button → ignore
+
+            e.preventDefault();
+
+            const wrapper = btn.closest(".ts-wrapper");
+            wrapper.classList.toggle("open");
+
+            // Close any other opened ones
+            document.querySelectorAll(".ts-wrapper").forEach(w => {
+                if (w !== wrapper) w.classList.remove("open");
+            });
+        });
+    </script>
+
+
+</div>

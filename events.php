@@ -1,0 +1,136 @@
+<!--Code for SDSF Events Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | SDSF</title>
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <?php include("header.php"); ?>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="events-hero">
+        <div class="hero-text-content">
+            <div class="hero-content">
+                <h2>Events & Opportunities</h2>
+                <h3 class="hero-subtitle"> Campus Life at SDSF</h3>
+                <p class="hero-intro-text">Explore the vibrant ecosystem of opportunities, achievements and celebrations.It’s where you grow, glow, mess up, level up — all under the same sky that keeps dreaming with you.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- ===== EVENT GALLERY SECTION ===== -->
+    <section id="event-gallery" class="gallery-section">
+        <div class="news-grid">
+            <div class="news-card reveal">
+                <div class="news-image">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1000&auto=format&fit=crop" alt="Annual Tech Fest">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">September 27, 2025</div>
+                    <h4>Induction</h4>
+                    <p>The School of Data Science and Forecasting (SDSF) conducted the Induction Programme 
+                        for newly admitted students at the beginning of the academic session. This essential 
+                        orientation, typically held in August or September, aims to ease the transition of newcomers into university life. 
+                        The programme familiarizes students with the academic structure, syllabus, 
+                        and credit system while also introducing them to the faculty,
+                         campus facilities, and critical student support services.
+                          <div class="event_photo_link">
+                             <a href="#">View Photos--></a>
+                        </div>
+                        
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="news-card reveal">
+                <div class="news-image">
+                    <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=1000&auto=format&fit=crop" alt="Industry Visit">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">March 16-17, 2024</div>
+                    <h4>Hackhive </h4>
+                    <p>The HackHive 2024 was a significant 36-hour PAN-India hackathon hosted by DAVV Indore's SDSF. 
+                        The event drew over 300 participants from more than 2,000 national registrations.
+                         Teams were challenged to build real-world solutions for 15 problem statements across high-demand domains, including AI/ML, 
+                         Blockchain, IoT, and Cloud/DevOps.
+                        <div class="event_photo_link">
+                             <a href="#">View Photos--></a>
+                        </div>
+                        
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="news-card reveal">
+                <div class="news-image">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1000&auto=format&fit=crop" alt="Guest Lecture">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">August 23-24, 2024</div>
+                    <h4>International Conference</h4>
+                    <p>
+                        The iBCD 2024 International Conference on Business Intelligence, Computational Mathematics, and Data Analytics was held at DAVV, Indore.
+                         Organized by DAVV's School of Data Science and Forecasting (SDSF) in collaboration with partners like Universidad Autónoma de Tamaulipas, 
+                        Mexico, the two-day event provided an international platform for experts to discuss the rapidly evolving technological landscape.
+                         <div class="event_photo_link">
+                             <a href="#">View Photos--></a>
+                        </div>
+                        
+                    </p>
+                </div>
+            </div>
+
+           
+
+            
+
+           
+        </div>
+
+
+    </section>
+
+    <!-- ===== UPCOMING EVENTS SECTION ===== -->
+    <section class="upcoming-events-section reveal">
+        <h2>Upcoming Events</h2>
+        <div class="events-timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-date">2026 EVENTS </div>
+                <div class="timeline-content">
+                    <h4>Updates will be Coming soon</h4>
+                    <p>get ready for more events upcomming the year</p>
+                </div>
+            </div>
+            
+    <script src="events.js"></script>
+
+    <!--Script fot the Palcement so that it opens here -->
+                <script>
+                document.addEventListener("click", (e) => {
+                    const btn = e.target.closest(".ts-btn");
+                    if (!btn) return;
+
+                    e.preventDefault();
+
+                    const wrapper = btn.closest(".ts-wrapper");
+                    wrapper.classList.toggle("open");
+
+                    // close other dropdowns
+                    document.querySelectorAll(".ts-wrapper").forEach(w => {
+                        if (w !== wrapper) w.classList.remove("open");
+                    });
+                });
+                </script>
+</body>
+</html>

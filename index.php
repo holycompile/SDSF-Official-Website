@@ -1,0 +1,460 @@
+<!--Code edited by Alivia Hossain, SDSF AI/DS Sem 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- App / mobile -->
+  <meta name="theme-color" content="#162b57">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <title>SDSF | School of Data Science and Forecasting</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  
+  <!-- ===== Header / Navbar ===== -->
+          <!--  <div id="header"></div>
+            <script>
+            fetch("header.html")
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById("header").innerHTML = data;
+                });
+            </script>   -->
+        <?php include("header.php"); ?>
+
+ 
+  <!-- ===== Hero Section (Image Slider) ===== -->
+<section class="hero-slider">
+  <div class="slide fade">
+    <img src="../photoes/indexhero4.jpg" alt="Slide 1">
+    <div class="hero-text">
+      <p class="tagline">Empowering Through Analytics</p>
+          <h1 class="code-colored">
+            <span class="c1">Creative</span><br>
+            <span class="c2">& Logical</span><br>
+            <span class="c3">Thinking Ahead.</span>
+          </h1>
+
+      
+    </div>
+  </div>
+
+  <div class="slide fade">
+    <img src="../photoes/indexhero1.JPG" alt="Slide 2">
+    <div class="hero-text">
+      <p class="tagline">Decode. Analyze. Predict.</p>
+      <h1 class="code-colored">
+            <span class="c1">Turning </span><br>
+            <span class="c2">Complex Code</span><br>
+            <span class="c3">into Clarity</span>
+          </h1>
+
+    </div>
+  </div>
+
+  <div class="slide fade">
+    <img src="../photoes/indexhero0.jpg" alt="Slide 3">
+    <div class="hero-text">
+      <p class="tagline">Data is Power</p>
+       <h1 class="code-colored">
+            <span class="c1">Where  </span><br>
+            <span class="c2">Number Speaks </span><br>
+            <span class="c3">& Code Creates</span>
+          </h1>
+    </div>
+  </div>
+
+  <div class="slide fade">
+    <img src="../photoes/indexhero2.jpg" alt="Slide 4">
+    <div class="hero-text">
+      <p class="tagline">Learning Beyond Limits</p>
+       <h1 class="code-colored">
+            <span class="c1">Empopwering</span><br>
+            <span class="c2">Innovators of</span><br>
+            <span class="c3">the Future</span>
+          </h1>
+    </div>
+  </div>
+  <div class="slide fade">
+    <img src="../photoes/indexhero3.jpg" alt="Slide 4">
+    <div class="hero-text">
+      <p class="tagline">Dream. Create. Inspire.</p>
+       <h1 class="code-colored">
+            <span class="c1">Unleashing</span><br>
+            <span class="c2">Creativity</span><br>
+            <span class="c3">Without Bounds</span>
+          </h1>
+    </div>
+  </div>
+
+    <!-- Arrow Buttons -->
+  <a class="prev" onclick="plusSlides(0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(0)">&#10095;</a>
+
+  <!-- Dots for manual control -->
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+</section>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      let dots = document.getElementsByClassName("dot");
+
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 10000);
+    }
+
+    function currentSlide(n) {
+      slideIndex = n - 1;
+      showSlides();
+    }
+
+
+        function plusSlides(n) {
+      slideIndex += n;
+      showSlides();
+    }
+
+  </script>
+
+
+
+<!--<div class="indian-mathematics-center">
+  <a 
+     href="https://dsf.dauniv.ac.in/notices/IKS-Centre.pdf" 
+     target="_blank" 
+     class="research-link">
+      Research Centre of Ancient Indian Mathematics
+  </a>
+</div>-->
+
+
+  <!-- ===== Notice and News Section ===== -->
+                        <section class="notice-section">
+                  <h2 class="notice-heading">Latest News & Notices</h2>
+
+                  <div class="notice-list">
+
+                      
+
+                      <div class="notice-item">
+                          <span class="bullet"></span>
+                          <p>
+                              <a href="https://drive.google.com/file/d/1ouDvDYU6yhxx40286vx66-i27r925uyr/view?usp=sharing" table="_blank">End Semester Examination 2025-26 Schedule Released</a>
+                          </p>
+                      </div>
+                      <!--
+                              Hidden content
+                              <div class="dropdown-content">
+                                  <h3>1. M.Tech (Dual Degree) – AI & DS</h3>
+                                  <ul>
+                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-3%20Sem.pdf">Third Semester (2024–29)</a></li>
+                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-5%20Sem.pdf">Fifth Semester (2023–28)</a></li>
+                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-7%20Sem.pdf">Sevent Semester (2022–27)</a></li>
+                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-9%20Sem.pdf">Ninth Semester (2021–26)</a></li>
+                                  </ul>
+
+                                  <h3>2. M.Tech (Data Science) / BIG DATA ANALYTICS</h3>
+                                  <ul>
+                                          <li><a href="https://dsf.dauniv.ac.in/notices/Time-Table-M.TECH.pdf">Firts Semester (2025–27)</a></li>
+                                      </ul>
+                                  </div>
+                                -->
+                      <div class="notice-item">
+                          <span class="bullet"></span>
+                          <p>
+                              Semester-III Internal Exam Dates Announced 
+                          </p>
+                      </div>
+
+                      <div class="notice-item">
+                          <span class="bullet"></span>
+                          <p>
+                              Workshop on AI & Data Security – Registrations Open Till 12th Dec
+                          </p>
+                      </div>
+
+                  </div>
+              </section>
+
+
+
+
+               <footer class="footer">
+                    <a href="#top" class="back-to-top">↑ Back to Top</a>
+              </footer>
+
+
+
+              <!--below contact stuffs and informations-->
+              <footer class="main-footer">
+                    <div class="footer-container">
+
+                        <!-- Column 1 -->
+                        <div class="footer-col">
+                            <h3>UNIVERSITY ADDRESS</h3>
+                            <p>School of Data Science and Forecasting</p>
+                            <p>DAVV Takshila Campus</p>
+                            <p>Khandwa Road, Indore</p>
+                            <p>Madhya Pradesh – PIN: 452001</p>
+                            <p></p>
+                            <p></p>
+                        </div>
+
+                        <!-- Column 2 -->
+                       <div class="social-section" id="social-media">
+                        <h3>SOCIAL MEDIA</h3>
+                        <div class="social-links">
+                            
+                            <a href="https://www.instagram.com/davv_sdsf/" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <br>
+                            <a href="https://twitter.com/your-profile" target="_blank" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <br>
+                            <a href="https://youtube.com/your-channel" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <br>
+                            <a href="https://facebook.com/your-channel" target="_blank" class="social-link youtube">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+
+                        <!-- Column 3 -->
+                        <div class="footer-col">
+                            <h3>QUICK LINKS</h3>
+                            <a href="admission/admission.php">Careers</a><br>
+                            <a href="https://www.dauniv.ac.in/ragging">Anti-Ragging Committee</a><br>
+                            <a href="https://www.dauniv.ac.in/grievance-redressal-system">Grievance Redressal System</a><br>
+                            <a href="https://www.dauniv.ac.in/digital-lib"> Digital Library</a><br>
+                        </div>
+
+                        <!-- Column 4 -->
+                        <div class="footer-col">
+                            <h3>PARENTS</h3>
+                            <a href="https://www.google.com/maps/dir/22.6891486,75.867182/davv+takshila+campus/@22.6898923,75.8673051,18z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3962fcef50d20ba3:0x592abbfe7172123e!2m2!1d75.8704159!2d22.6892814?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">How to Reach</a><br>
+                            <a href="https://www.google.com/maps/search/nearby+hotels+in+DAVV+Takshila+campus/@22.6899046,75.8634427,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">Hotels Nearby</a><br>
+                            
+                        </div>
+
+                        <!--Column 5-->
+                        <div class="footer-col" id="contact">
+                            <h3>CONTACT US:</h3>
+                            <a href="#">Phone: 0731-2470330</a><br>
+                            <a href="#">Email: stokekar@ietdavv.edu.in</a><br>
+                            
+                        </div>
+
+                    </div>
+                </footer>
+
+
+
+                <!-- this scirpt for the timetbale part under the noitice section-->
+               <script>
+                document.querySelectorAll(".dropdown").forEach(function(drop){
+                    drop.addEventListener("click", function() {
+                        const content = this.nextElementSibling;
+                        content.style.display =
+                            (content.style.display === "block") ? "none" : "block";
+                    });
+                });
+                </script>
+
+
+                <!--back to top wali bakchodi -->
+                <script>
+                    const backToTopBtn = document.querySelector(".back-to-top");
+
+                    window.addEventListener("scroll", () => {
+                        if (window.scrollY > 300) {
+                            backToTopBtn.style.display = "block";
+                        } else {
+                            backToTopBtn.style.display = "none";
+                        }
+                    });
+
+                    // Smooth scroll to top
+                    backToTopBtn.addEventListener("click", (e) => {
+                        e.preventDefault();
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                    });
+                </script>
+
+
+<div id="contributorModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeContributorModal()">&times;</span>
+        <h2>Meet Our Contributors</h2>
+        <p class="modal-intro">The success of our website is supported by the dedication of these individuals.</p>
+
+        <div class="contributor-list-section">
+            
+            <h3>⭐ Top Contributors</h3>
+
+            <div class="contributor-row top-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Alivia Hossain</h4>
+                    <p class="role">Admission,academics,iqac,home (UI/UX)</p>
+                    <p class="qualification">M.Tech Dual Degree AI/DS Sem 1</p>
+                    <p class="from">Kolkata</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/alivia-hossain-513a3a365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="link-linkedin">LinkedIn</a> |
+                        <a href="https://github.com/aliviahossain" target="_blank" class="link-github">GitHub</a>
+                    </div>
+                </div>
+                <div class="contributor-photo-right">
+                    <img src="/photoes/contributor_top1.jpg" alt="ALivia Hossain" class="contributor-photo">
+                </div>
+            </div>
+            
+            <div class="contributor-row top-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Joyobrata Das</h4>
+                    <p class="role">home,about</p>
+                    <p class="qualification">M.Tech Dual Degree AI/DS Sem 3</p>
+                    <p class="from">Kolkata</p>
+                    <div class="links">
+                        <a href="https://linkedin.com/in/Joyobrata" target="_blank" class="link-linkedin">LinkedIn</a> |
+                        <a href="https://github.com/holycompile" target="_blank" class="link-github">GitHub</a>
+                    </div>
+                </div>
+                <div class="contributor-photo-right">
+                    <img src="/photoes/contributor_top2.jpg" alt="Joyobrata Das" class="contributor-photo">
+                </div>
+            </div>
+            <br>
+            <h3>🤝 Other Core Team Members</h3>
+
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Akshita Mishra</h4>
+                    <p class="role">lead</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Harshita Basantani</h4>
+                    <p class="role">academics</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Rohit Chaudhary</h4>
+                    <p class="role">academics</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Akshita Mishra</h4>
+                    <p class="role">lead</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Subhi Tukaria</h4>
+                    <p class="role">iqac</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Akshara Yadav</h4>
+                    <p class="role">iqac</p>
+                </div>
+            </div>
+            <div class="contributor-row other-tier">
+                <div class="contributor-details-left">
+                    <h4 class="contributor-name">Akriti Tiwari</h4>
+                    <p class="role">iqac</p>
+                </div>
+            </div>
+            
+        </div> </div>
+</div>
+
+<script>
+    function openContributorModal(event) {
+        event.preventDefault(); 
+        document.getElementById('menu-toggle').checked = false;
+        const modal = document.getElementById('contributorModal');
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden"; 
+    }
+
+    function closeContributorModal() {
+        const modal = document.getElementById('contributorModal');
+        modal.style.display = "none";
+        document.body.style.overflow = "auto"; 
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('contributorModal');
+        if (event.target === modal) {
+            closeContributorModal();
+        }
+    }
+</script>
+
+<!--Placement script -->
+<script>
+document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".ts-btn");
+    if (!btn) return;
+
+    e.preventDefault();
+
+    const wrapper = btn.closest(".ts-wrapper");
+
+    // Close if already open
+    if (wrapper.classList.contains("open")) {
+        wrapper.classList.remove("open");
+        return;
+    }
+
+    // Close others
+    document.querySelectorAll(".ts-wrapper").forEach(w => w.classList.remove("open"));
+
+    // Open this one
+    wrapper.classList.add("open");
+});
+</script>
+                           
+
+
+</body>
+</html>

@@ -1,0 +1,569 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Added Poppins font-family to the body to ensure all text uses it */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.about_sdsf{
+    text-align:justify;
+}
+.about_introduction{
+    text-align:justify;
+}
+.about_Vision{
+    text-align:justify;
+}
+.about_head{
+    text-align:justify;
+}
+/* --- About Hero Section ---
+*/
+.about-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.about-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 20, 40, 0.7);
+    z-index: 2;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-hero h2 {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 1rem;
+    color: #fff !important; 
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.3s;
+}
+
+.about-hero h3,
+.about-hero .hero-subtitle {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #ffeb3b;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.6s;
+}
+
+.about-hero p,
+.about-hero .hero-intro-text {
+    color: #f0f3ff;
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.9s;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* --- General Section Styles ---
+*/
+.explore-section {
+    padding: 4rem 10rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    overflow: hidden
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: #004d99;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ff9900;
+    margin: 10px auto 0;
+}
+
+.section-underline {
+    width: 90px;
+    height: 4px;
+    background: #4a68ff;
+    margin: 0.5rem auto 3rem auto;
+    border-radius: 10px;
+}
+
+/* --- Soft Background Section ---
+*/
+.soft-background-section {
+    position: relative;
+    /* Enclosed path in quotes to potentially avoid linter warnings */
+    background: url('/photoes/i1.png') center/cover no-repeat;
+    padding: 6rem 3rem;
+    border-radius: 15px;
+    margin: 4rem auto;
+    overflow: hidden;
+}
+
+.soft-background-section .soft-bg-overlay {
+    position: absolute;
+    inset: 0; 
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(3px);
+    z-index: 0;
+}
+
+.soft-bg-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.soft-bg-content h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.soft-bg-content p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.7;
+}
+
+.section-divider {
+    width: 80%;
+    margin: 3rem auto;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.next-section {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.next-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.next-section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* --- General Info Card (Replaces Accordion) ---
+*/
+.general-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-card {
+    width: 95%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    border-left: 6px solid #5368F5;
+}
+
+.info-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #004d99;
+    border-bottom: 2px solid #e0e7ff;
+    padding-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.content-container {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Quotes Module ---
+*/
+.quotes-module {
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 50px;
+    /* Replaced 8-digit hex (#004d9950) with rgba() for better linter compatibility. */
+    border: 2px dashed rgba(0, 77, 153, 0.314); 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.quote-box {
+    max-width: 800px;
+    margin: 0 auto 15px;
+    font-size: 1.6em;
+    font-style: italic;
+    color: #004d99;
+}
+
+.quote-author {
+    font-size: 1.1em;
+    color: #ff9900;
+    font-weight: 700;
+}
+
+/* --- Developers Section ---
+*/
+.developers-section {
+    background: #f0f4f8;
+    text-align: center;
+    padding: 4rem 4rem;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.developers-title {
+    font-size: 2.5rem;
+    color: #004d99;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.developers-intro {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+}
+
+.contributor-list-section h3 {
+    font-size: 1.5rem;
+    color: #4a68ff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #e9eefb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.top-contributors-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.contributor-card.top-tier {
+    background: #f8faff;
+    border: 1px solid #e0e7ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    flex-basis: 45%;
+    max-width: 350px;
+}
+
+.contributor-card.top-tier:hover {
+    background: #eef4ff;
+    box-shadow: 0 6px 15px rgba(74, 104, 255, 0.1);
+    transform: translateY(-3px);
+}
+
+.contributor-photo-center {
+    margin-bottom: 15px;
+}
+
+.contributor-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4a68ff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contributor-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.links a {
+    color: #004d99;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.other-contributors-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.contributor-name.other-tier {
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #444;
+    transition: background-color 0.2s;
+}
+
+.contributor-name.other-tier:hover {
+    background-color: #e0e7ff;
+}
+
+/* --- Media Queries (Responsiveness) ---
+*/
+@media (max-width: 992px) {
+    /* 'section' is assumed to be a standard HTML element here */
+    section { 
+        padding: 3rem 4rem;
+    }
+    .developers-section {
+        padding: 4rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* 'section' is assumed to be a standard HTML element here */
+    section { 
+        padding: 2.5rem 1.5rem;
+    }
+    .top-contributors-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .contributor-card.top-tier {
+        flex-basis: 100%;
+        max-width: 90%;
+    }
+    .developers-intro {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .developers-section {
+        padding: 2rem 1rem;
+    }
+    .contributor-photo {
+        width: 90px;
+        height: 90px;
+    }
+    .contributor-name {
+        font-size: 1.2rem;
+    }
+    .contributor-name.other-tier {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+
+
+
+/* ================================
+   ABOUT PAGE – MOBILE REFINEMENTS
+   ================================ */
+
+@media (max-width: 768px) {
+
+  /* ---- HERO SECTION ---- */
+  .about-hero {
+    padding: 2.5rem 1.2rem;
+    min-height: auto;
+    margin: 1rem;
+    border-radius: 14px;
+  }
+
+  .about-hero h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+
+  .about-hero h3,
+  .about-hero .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-hero p,
+  .about-hero .hero-intro-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* ---- MAIN SECTIONS ---- */
+  .about-container {
+    width: 92%;
+    margin: 0 auto;
+    padding: 20px 16px;
+  }
+  .about-card {
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+  .about-card h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .about-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+  }
+  
+  .explore-section {
+    padding: 2.5rem 1.2rem;
+    margin: 1.5rem auto;
+  }
+
+  .soft-background-section {
+    padding: 3rem 1.2rem;
+    margin: 2rem 1rem;
+    border-radius: 12px;
+  }
+
+  .soft-bg-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .soft-bg-content p {
+    font-size: 0.95rem;
+  }
+
+  /* ---- INFO CARDS ---- */
+  .info-card {
+    padding: 18px;
+    width: 100%;
+    border-left-width: 4px;
+  }
+
+  .info-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .info-card p {
+    font-size: 0.95rem;
+  }
+
+  /* ---- CONTENT WRAPPER ---- */
+  .content-container {
+    padding: 30px 15px;
+  }
+
+  /* ---- QUOTES ---- */
+  .quote-box {
+    font-size: 1.2rem;
+  }
+
+  .quote-author {
+    font-size: 1rem;
+  }
+
+  /* ---- DEVELOPERS SECTION ---- */
+  .developers-section {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .developers-title {
+    font-size: 2rem;
+  }
+
+  .developers-intro {
+    font-size: 0.95rem;
+  }
+
+}

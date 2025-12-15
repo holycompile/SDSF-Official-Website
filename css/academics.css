@@ -1,0 +1,883 @@
+/* ===== HERO SECTION ===== */
+.academics-hero-box {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    margin: 20px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.academics-hero-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.academics-hero-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+/* Text Container */
+.academics-hero-box .hero-text-content {
+    position: relative;
+    z-index: 3;
+    max-width: 80%;
+    padding: 20px;
+}
+
+/* Keyframe Animation for Text Appearance */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main Hero Heading (Apply Animation) */
+.academics-title {
+    color: white;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0.5rem;
+    
+    /* Animation Application */
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.3s;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #ffeb3b; /* Accent color */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    
+    /* Animation Application */
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.6s;
+}
+
+/* New Intro Text (Apply Animation) */
+.hero-intro-text {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    /* Animation Application */
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.9s;
+}
+
+/* ===== ACADEMIC OPTIONS SECTION===== */
+.academic-options-section {
+    padding: 4rem 6rem;
+    background: #fff;
+}
+
+.academic-options-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1b1b1b;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.option-card {
+    background: #ffffff;
+    border: 2px solid #e8eaf0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.option-card:hover {
+    transform: translateY(-8px);
+    border-color: #4a68ff;
+    box-shadow: 0 8px 24px rgba(74, 104, 255, 0.15);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.option-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1b1b1b;
+    margin-bottom: 0.8rem;
+}
+
+.option-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+}
+
+.card-link {
+    color: #4a68ff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.card-link:hover {
+    color: #3a58ef;
+    transform: translateX(4px);
+}
+
+
+/* ===== HIDDEN BOXES===== */
+
+/* Main Box */
+.ordinances-box {
+    width: 80%;
+    margin: 40px auto;
+    background: linear-gradient(145deg, rgba(255,255,255,0.75), rgba(245,245,255,0.55));
+    backdrop-filter: blur(14px);
+    border-radius: 26px;
+    padding: 45px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+    animation: fadePop 0.6s ease-out forwards;
+    border: 1px solid rgba(255,255,255,0.5);
+    display: none;
+    
+    grid-column: 1 / -1; 
+}
+
+/* Section Title */
+.ordinances-box .section-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: none;
+    padding-left: 0;
+}
+
+.ordinances-box .section-title::before {
+    content: "";
+    width: 8px;
+    height: 28px;
+    background: linear-gradient(180deg, #0057ff, #30a8ff);
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,87,255,0.5);
+}
+
+/* List Styling */
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+/* Modern Animated List Items */
+.styled-list li {
+    list-style: none;
+    margin-bottom: 16px;
+    padding: 18px 20px;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 14px;
+    border: 1px solid rgba(220,220,255,0.7);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+    opacity: 0;
+    transform: translateY(25px) scale(0.96);
+    animation: listPop 0.7s forwards cubic-bezier(.16,.84,.44,1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Animated Accent Bar */
+.styled-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, #0057ff, #38b6ff, #88e0ff);
+    border-radius: 6px;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: 0.35s ease;
+}
+
+/* List hover */
+.styled-list li:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.16);
+    background: #ffffff;
+}
+
+.styled-list li:hover::before {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Links */
+.styled-list a {
+    color: #0057ff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15.5px;
+}
+
+.styled-list a:hover {
+    text-decoration: underline;
+}
+
+/* Staggered Delays - Used by JS, but kept here for reference */
+.styled-list li:nth-child(1) { animation-delay: 0.10s; }
+.styled-list li:nth-child(2) { animation-delay: 0.25s; }
+.styled-list li:nth-child(3) { animation-delay: 0.40s; }
+.styled-list li:nth-child(4) { animation-delay: 0.55s; }
+.styled-list li:nth-child(5) { animation-delay: 0.70s; }
+.styled-list li:nth-child(6) { animation-delay: 0.85s; }
+.styled-list li:nth-child(7) { animation-delay: 1.00s; }
+.styled-list li:nth-child(8) { animation-delay: 1.15s; }
+
+
+/* --- Animations --- */
+@keyframes fadePop {
+    0% { opacity: 0; transform: translateY(30px) scale(0.97); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes listPop {
+    0% { opacity: 0; transform: translateY(25px) scale(0.96); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ===============================
+    ACADEMIC CALENDAR - FULL CSS 
+    =============================== */
+
+.calendar-container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px 48px 60px;
+    border-radius: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 30px 60px rgba(15, 23, 42, 0.12);
+    overflow-x: auto;
+}
+
+.calendar-header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #004d99;
+    padding-bottom: 10px;
+}
+
+.calendar-header h2 {
+    font-size: 2.5em;
+    color: #004d99;
+    margin: 0;
+}
+
+.calendar-header p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Summary Table */
+.term-summary {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.term-summary th,
+.term-summary td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.term-summary th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.term-summary tr:first-child th {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+}
+
+/* Calendar Grid Layout */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 210px minmax(320px, 1.1fr) minmax(420px, 1.6fr) minmax(220px, 0.9fr);
+    border: 1px solid #e0e6f0;
+    border-radius: 24px;
+    overflow: hidden;
+    clear: both;
+}
+
+.grid-header {
+    background-color: #004d99;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.grid-month-cell {
+    background-color: #eef3fb;
+    font-weight: 700;
+    text-align: center;
+    padding: 18px 12px;
+    border-bottom: 1px solid #e0e6f0;
+    border-right: 1px solid #e0e6f0;
+}
+
+/* Date Grid */
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 16px 12px 18px;
+    gap: 6px 4px;
+    background: #ffffff;
+    border-right: 1px solid #e0e6f0;
+    border-bottom: 1px solid #e0e6f0;
+}
+
+.date-header {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.date-cell {
+    text-align: center;
+    padding: 6px 0;
+    font-size: 0.85em;
+    border-radius: 10px;
+}
+
+.calendar-events,
+.public-holidays {
+    padding: 20px 22px;
+    font-size: 0.92em;
+    line-height: 1.6;
+    border-bottom: 1px solid #e0e6f0;
+}
+
+.calendar-events {
+    background: #f8fbff;
+}
+
+.public-holidays {
+    background: #fff9f7;
+    border-left: 1px solid #ffe2d1;
+}
+
+/* COLORS & LABELS */
+.unlisted {
+    background-color: white;
+}
+
+.weekend {
+    background-color: #d1e3f8;
+}
+
+.exam-day {
+    background-color: #ffcc00;
+}
+
+.term-holiday {
+    background-color: #c90000;
+    color: white;
+}
+
+.public-holiday {
+    background-color: #990000;
+    color: white;
+}
+
+.prof-dev {
+    background-color: #008000;
+    color: white;
+}
+
+.prev-next-month {
+    color: #aaa;
+}
+
+/* Legend */
+.legend {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.color-box {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #555;
+    margin-right: 8px;
+}
+
+/* Optional spacing fix */
+#calendar-section-custom {
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    .calendar-grid {
+        grid-template-columns: 1fr;
+        border-radius: 18px;
+    }
+
+    .grid-month-cell,
+    .date-grid,
+    .calendar-events,
+    .public-holidays {
+        border-right: none;
+        border-bottom: 1px solid #e0e6f0;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar-container {
+        padding: 30px 20px 40px;
+    }
+
+    .term-summary {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .date-grid {
+        padding: 12px 6px 14px;
+    }
+}
+
+#calendar-section-custom.ordinances-box {
+    width: 100%;
+    max-width: 1320px;
+    margin: 30px auto 50px;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+    .options-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .academics-hero-box {
+        padding: 4rem 3rem;
+        border-radius: 22px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .academics-hero-box {
+        padding: 3rem 1.5rem;
+        min-height: 280px;
+        height: auto;
+    }
+
+    .academic-options-section {
+        padding: 3rem 2rem;
+    }
+
+    .academic-options-section h2 {
+        font-size: 2rem;
+    }
+
+    .options-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background: #f3f4f8;
+}
+
+.back-top {
+    color: #4a68ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.back-top:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ===== FACULTY PAGE STYLES - UPGRADED ===== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* WRAPPER */
+.faculty-wrapper {
+    padding: 5rem 8rem;
+    background: linear-gradient(180deg, #eef2ff 0%, #ffffff 60%);
+}
+
+/* PAGE TITLE */
+.faculty-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1b2a64;
+    letter-spacing: -0.5px;
+}
+
+.title-underline {
+    width: 90px;
+    height: 5px;
+    background: #4a68ff;
+    margin: 0.5rem auto 3.5rem auto;
+    border-radius: 10px;
+}
+
+/* FACULTY LIST */
+.faculty-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+/* INDIVIDUAL CARD */
+.faculty-card {
+    display: flex;
+    gap: 2.5rem;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    border: 1px solid rgba(74,104,255,0.1);
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: translateY(40px);
+     margin: 20px auto; /* This centers single cards */
+    max-width: 800px;  /* Same width as double cards */
+}
+
+.faculty-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(74,104,255,0.25);
+    border-color: #4a68ff66;
+}
+
+/* PHOTO BOX */
+.faculty-photo {
+    width: 260px;
+    height: 200px;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #3b5bff, #182f96);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    box-shadow: inset 0 0 25px rgba(255,255,255,0.2);
+}
+
+/* TEXT INFO */
+.faculty-info h2 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #1b2a64;
+    margin-bottom: 0.8rem;
+}
+
+.faculty-info p {
+    margin: 6px 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* ENTRY ANIMATION */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* BACK TO TOP BUTTON */
+#backToTop {
+    position: fixed;
+    right: 25px;
+    bottom: 30px;
+    width: 55px;
+    height: 55px;
+    background: #4a68ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#backToTop.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(-5px);
+}
+
+#backToTop:hover {
+    transform: translateY(-8px) scale(1.08);
+}
+
+/* MOBILE FIXES */
+@media (max-width: 900px) {
+    .faculty-wrapper { padding: 2rem; }
+
+    .faculty-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .faculty-photo {
+        width: 100%;
+    }
+}
+
+/* css for the non-teaching faculty */
+.non-teaching{
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+.non-teaching-heading{
+    background: linear-gradient(90deg, #3B82F6, #9333EA);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.non-teaching-list{
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* css for the Visiting-faculty */
+.visiting-faculty{
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+.visiting-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.visiting-heading{
+    background: linear-gradient(90deg, #3B82F6, #9333EA);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.visiting-faculty-list{
+     background: #fafafa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+
+/* =========================================
+   SIDE-BY-SIDE LAYOUT LOGIC (New Additions)
+   ========================================= */
+
+/* 1. Container for the side-by-side cards */
+.faculty-row {
+    display: flex;
+    gap: 2.5rem;
+    width: 100%;
+    align-items: stretch; /* Ensures both cards are same height */
+}
+
+/* 2. Ensure cards inside the row take 50% width each */
+.faculty-row .faculty-card {
+    flex: 1;           
+    width: 0;          /* Prevents flexbox overflow issues with text */
+    margin: 0;         /* Resets any external margins */
+}
+
+/* 3. Adjust image size specifically for the split view so text fits */
+.faculty-row .faculty-photo {
+    width: 180px;      /* Slightly smaller photo for side-by-side view */
+    flex-shrink: 0;    /* Prevents photo from getting squished */
+}
+
+/* 4. RESPONSIVENESS: Stack them back to a single column on tablets/phones */
+@media (max-width: 1100px) {
+    .faculty-row {
+        flex-direction: column;
+        gap: 3.5rem; /* Match the main section gap */
+    }
+
+    .faculty-row .faculty-card {
+        width: 100%; /* Return to full width */
+        width: auto;
+    }
+
+    .faculty-row .faculty-photo {
+        width: 200px; /* Return to standard photo size */
+    }
+}
+
+
+/* =========================================
+   IMAGE FIXES & CLEANUP
+   (Replaces the conflicting code at bottom of your file)
+   ========================================= */
+
+.faculty-photo {
+    width: 220px;          /* Standardized width */
+    height: 220px;         /* Standardized height */
+    background: linear-gradient(135deg, #3b5bff, #4e7dfc);
+    border-radius: 14px;
+    overflow: hidden;      /* Keeps image inside rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;        /* IMPORTANT: Prevents image shrinking when text is long */
+}
+
+.faculty-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* Ensures faces aren't stretched/distorted */
+    border-radius: 0;      /* Parent container handles the radius */
+    transition: transform 0.5s ease;
+}
+
+/* Optional: Slight zoom effect on photo hover */
+.faculty-card:hover .faculty-photo img {
+    transform: scale(1.1);
+}
+
+
+/* ===============================
+   ACADEMICS CARDS – MOBILE FIRST
+   =============================== */
+@media (max-width: 768px) {
+
+    .options-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+    }
+
+    .option-card {
+        padding: 1.2rem;
+    }
+
+    .card-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .option-card h3 {
+        font-size: 1rem;
+    }
+
+    .option-card p {
+        font-size: 0.85rem;
+        line-height: 1.45;
+    }
+}

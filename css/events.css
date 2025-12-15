@@ -1,0 +1,402 @@
+/* ===== MAGAZINE STYLE EVENT CARDS ===== */
+
+/* ===== HERO SECTION ===== */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.events-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.events-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 20, 40, 0.7);
+    z-index: 2;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.events-hero h2 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0.5rem;
+    color: #fff;
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.3s;
+}
+
+.events-hero h3,
+.events-hero .hero-subtitle {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #ffeb3b;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.6s;
+}
+
+.events-hero p,
+.events-hero .hero-intro-text {
+    color: #f0f3ff;
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    opacity: 0;
+    animation: fadeInText 1s ease forwards 0.9s;
+}
+
+/* ===== SECTION INTRO ===== */
+.section-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2.5rem;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.news-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0px 8px 28px rgba(0,0,0,0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 16px 40px rgba(0,0,0,0.18);
+}
+
+.news-image img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.news-content {
+    padding: 1.8rem;
+    color: #222;
+}
+
+.news-date {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-bottom: 0.4rem;
+}
+
+.news-content h4 {
+    font-size: 1.45rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news-content p {
+    font-size: 0.97rem;
+    color: #444;
+    line-height: 1.55;
+    margin-bottom: 1.3rem;
+}
+
+.news-link {
+    font-size: 0.9rem;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+.news-card {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: cardFade 0.7s ease forwards;
+}
+
+.news-card:nth-child(1) { animation-delay: 0.1s; }
+.news-card:nth-child(2) { animation-delay: 0.2s; }
+.news-card:nth-child(3) { animation-delay: 0.3s; }
+/* continue if you want */
+
+@keyframes cardFade {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ===== UPCOMING EVENTS – MAGAZINE TIMELINE STYLE ===== */
+
+.upcoming-events-section {
+    padding: 4rem 6rem;
+    background: #fff;
+    border-radius: 18px;
+    margin-top: 3rem;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.08);
+}
+
+.upcoming-events-section h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Timeline wrapper */
+.events-timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-left: 20px;
+    border-left: 3px solid #d0d0d0;
+}
+
+/* Each item */
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    transition: transform 0.25s ease, opacity 0.4s ease;
+}
+
+.timeline-item:hover {
+    transform: translateY(-4px);
+}
+
+/* Circle marker */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -38px;
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    background: #4c51bf; /* Purple-ish accent */
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 3px #d0d0d0;
+}
+
+/* Date style */
+.timeline-date {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Title + description */
+.timeline-content h4 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-content p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.55;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .events-timeline {
+        padding-left: 20px;
+    }
+    .timeline-item::before {
+        left: -28px;
+    }
+    .timeline-content h4 {
+        font-size: 1.2rem;
+    }
+}
+
+.event_photo_link{
+    margin-top:20px;
+}
+
+
+
+
+/* =================================
+   EVENTS PAGE – MOBILE RESPONSIVE
+   ================================= */
+
+@media (max-width: 768px) {
+
+    /* HERO SECTION */
+    .events-hero {
+        padding: 3rem 1.2rem;
+        min-height: 280px;
+        border-radius: 14px;
+    }
+
+    .events-hero h2 {
+        font-size: clamp(2rem, 8vw, 3rem);
+        letter-spacing: 1px;
+    }
+
+    .events-hero h3,
+    .events-hero .hero-subtitle {
+        font-size: clamp(1rem, 4vw, 1.4rem);
+        margin-bottom: 1rem;
+    }
+
+    .events-hero p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        padding: 0 0.4rem;
+    }
+
+    /* SECTION INTRO */
+    .section-intro {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 0.5rem;
+    }
+
+    /* NEWS GRID */
+    .news-grid {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+        padding: 0 1rem;
+    }
+
+    .news-image img {
+        height: 180px;
+    }
+
+    .news-content {
+        padding: 1.2rem;
+    }
+
+    .news-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .news-content p {
+        font-size: 0.9rem;
+        line-height: 1.45;
+        margin-bottom: 1rem;
+    }
+
+    /* UPCOMING EVENTS SECTION */
+    .upcoming-events-section {
+        padding: 3rem 1.5rem;
+        margin-top: 2rem;
+        border-radius: 14px;
+    }
+
+    .upcoming-events-section h2 {
+        font-size: 1.9rem;
+        margin-bottom: 2rem;
+    }
+
+    /* TIMELINE */
+    .events-timeline {
+        margin-left: 0;
+        padding-left: 18px;
+    }
+
+    .timeline-item {
+        padding-left: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-item::before {
+        left: -26px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline-date {
+        font-size: 0.8rem;
+    }
+
+    .timeline-content h4 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+        line-height: 1.45;
+    }
+}
