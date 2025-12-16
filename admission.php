@@ -18,7 +18,7 @@
     <!-- ===== FLASHING APPLY NOW LINKS ===== -->
     <section class="quick-apply-section">
         <div class="quick-apply-container">
-            <a href="https://www.dauniv.ac.in/cuet2025/" class="quick-apply-link cuet-link" target="_blank">
+            <a href="https://www.dauniv.ac.in/notice-multiple-details/NDExOQ==" class="quick-apply-link cuet-link" target="_blank">
                 <span class="apply-icon">🎓</span>
                 Apply Now - CUET Programs
                 <span class="flash-dot"></span>

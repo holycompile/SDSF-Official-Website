@@ -46,7 +46,7 @@
   </div>
 
   <div class="slide fade">
-    <img src="../photoes/indexhero1.JPG" alt="Slide 2">
+    <img src="../photoes/indexhero1.jpg" alt="Slide 2">
     <div class="hero-text">
       <p class="tagline">Decode. Analyze. Predict.</p>
       <h1 class="code-colored">
