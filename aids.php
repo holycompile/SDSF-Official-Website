@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M. Tech (Dual Degree) AI & DS</title>
     <link rel="stylesheet" href="style.css">
+    <!-- font styles importing -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* RESET AND BASE */
         * {
@@ -174,7 +180,25 @@
                                 <h2 class="section-title">Informations: </h2>
                                 
                                 <ul class="notes-list">
-                                    <li><a href="#">Notices for the course will be updated here.</a></li>
+                                     <li>
+									  <a href="notices/M.Tech.-Dual-Degree_Second-Semester.pdf">
+									  Teaching Schedule Time Table – Second Semester (202-29)
+									   </a>
+									</li>
+									
+									 <li>
+									  <a href="notices/M.Tech-Dual-Degree-IV-Semester.pdf">
+									  Teaching Schedule Time Table – Fourth Semester (2023-28)
+									   </a>
+									</li>
+									
+									 <li>
+									  <a href="notices/M.Tech.-Dual-Degree-VI-Semester.pdf">
+									  Teaching Schedule Time Table – Six Semester (2022-27)
+									   </a>
+									</li>
+									
+									
                                     
                                 </ul>
                             </section>

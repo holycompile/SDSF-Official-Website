@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 /* Added Poppins font-family to the body to ensure all text uses it */
@@ -25,7 +26,7 @@ body {
     padding: 4rem 2rem;
     position: relative;
     color: #fff;
-    overflow: hidden;
+    overflow: visible;
     margin: 20px auto;
     border-radius: 18px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -46,6 +47,7 @@ body {
     background-size: cover;
     background-position: center;
     z-index: 1;
+    overflow: visible;
 }
 
 .about-hero::after {

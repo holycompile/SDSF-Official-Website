@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="/css/academics.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- font styles importing -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body id="top">
@@ -392,7 +400,7 @@
                     <h2 class="section-title">Memorandum of Understanding.</h2>
                     <ul class="styled-list">
                         <li><strong>MoU with Industry: </strong> <a href="https://drive.google.com/file/d/1LZffzZYZpmk7JQDMQ4H2N06-QqMCJFg5/view?usp=sharing" target="_blank">View PDF</a></li>
-                        <li><strong>MoU with Schools Of Statistics: </strong> <a href="https://drive.google.com/file/d/1Wy1e6o1RaSIWGM9WbUYJoAEks3DPsLFq/view?usp=sharing" target="_blank">View PDF</a></li>
+                        <li><strong>MoU with School of Statistics: </strong> <a href="https://drive.google.com/file/d/1Wy1e6o1RaSIWGM9WbUYJoAEks3DPsLFq/view?usp=sharing" target="_blank">View PDF</a></li>
 
                     </ul>
 

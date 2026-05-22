@@ -13,9 +13,30 @@
   <title>SDSF | School of Data Science and Forecasting</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- font styles importing -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+
+        <!--Popup -->
+        <!-- POPUP OVERLAY -->
+            <div id="popup-overlay">
+
+            <div class="popup-box">
+
+                <button id="close-popup">&times;</button>
+
+                <img src="photoes/adm-pop-up.png" alt="Admission Poster">
+
+            </div>
+
+            </div>
   
   <!-- ===== Header / Navbar ===== -->
           <!--  <div id="header"></div>
@@ -46,7 +67,7 @@
   </div>
 
   <div class="slide fade">
-    <img src="../photoes/indexhero1.JPG" alt="Slide 2">
+    <img src="../photoes/indexhero1.jpg" alt="Slide 2">
     <div class="hero-text">
       <p class="tagline">Decode. Analyze. Predict.</p>
       <h1 class="code-colored">
@@ -94,16 +115,16 @@
   </div>
 
     <!-- Arrow Buttons -->
-  <a class="prev" onclick="plusSlides(0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(0)">&#10095;</a>
+  <a class="prev" onClick="plusSlides(0)">&#10094;</a>
+  <a class="next" onClick="plusSlides(0)">&#10095;</a>
 
   <!-- Dots for manual control -->
   <div class="dots">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onClick="currentSlide(1)"></span>
+    <span class="dot" onClick="currentSlide(2)"></span>
+    <span class="dot" onClick="currentSlide(3)"></span>
+    <span class="dot" onClick="currentSlide(4)"></span>
+    <span class="dot" onClick="currentSlide(5)"></span>
   </div>
 </section>
 
@@ -167,7 +188,7 @@
                       <div class="notice-item">
                           <span class="bullet"></span>
                           <p>
-                              <a href="https://drive.google.com/file/d/1ouDvDYU6yhxx40286vx66-i27r925uyr/view?usp=sharing" table="_blank">End Semester Examination 2025-26 Schedule Released</a>
+                              <a href="admission.php">Admission 2026</a>
                           </p>
                       </div>
                       <!--
@@ -187,19 +208,8 @@
                                       </ul>
                                   </div>
                                 -->
-                      <div class="notice-item">
-                          <span class="bullet"></span>
-                          <p>
-                              Semester-III Internal Exam Dates Announced 
-                          </p>
-                      </div>
+                      
 
-                      <div class="notice-item">
-                          <span class="bullet"></span>
-                          <p>
-                              Workshop on AI & Data Security – Registrations Open Till 12th Dec
-                          </p>
-                      </div>
 
                   </div>
               </section>
@@ -297,7 +307,7 @@
                 </script>
 
 
-                <!--back to top wali bakchodi -->
+               
                 <script>
                     const backToTopBtn = document.querySelector(".back-to-top");
 
@@ -319,7 +329,7 @@
 
 <div id="contributorModal" class="modal">
     <div class="modal-content">
-        <span class="close-btn" onclick="closeContributorModal()">&times;</span>
+        <span class="close-btn" onClick="closeContributorModal()">&times;</span>
         <h2>Meet Our Contributors</h2>
         <p class="modal-intro">The success of our website is supported by the dedication of these individuals.</p>
 
@@ -454,7 +464,17 @@ document.addEventListener("click", (e) => {
 });
 </script>
                            
+                <!--popup closing sequence-->
+                <script>
 
+                const popup = document.getElementById("popup-overlay");
+                const closeBtn = document.getElementById("close-popup");
+
+                closeBtn.addEventListener("click", () => {
+                    popup.style.display = "none";
+                });
+
+                </script>
 
 </body>
 </html>

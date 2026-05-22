@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="../style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- font styles importing -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="top">
@@ -18,12 +26,12 @@
     <!-- ===== FLASHING APPLY NOW LINKS ===== -->
     <section class="quick-apply-section">
         <div class="quick-apply-container">
-            <a href="https://www.dauniv.ac.in/cuet2025/" class="quick-apply-link cuet-link" target="_blank">
+            <a href="https://www.dauniv.ac.in/cuet2026/" class="quick-apply-link cuet-link" target="_blank">
                 <span class="apply-icon">🎓</span>
                 Apply Now - CUET Programs
                 <span class="flash-dot"></span>
             </a>
-            <a href="https://www.dauniv.ac.in/NON-CUET-Programmes2025" class="quick-apply-link non-cuet-link">
+            <a href="https://www.dauniv.ac.in/direct-merit-basis-admission-programmes-2026" class="quick-apply-link non-cuet-link">
                 <span class="apply-icon">📝</span>
                 Apply Now - Non-CUET Programs
                 <span class="flash-dot"></span>
@@ -34,7 +42,7 @@
     <section class="admission-hero">
         <div class="hero-text-content">
             <div class="hero-content">
-                <h2>Admissions soon 2026</h2>
+                <h2>Admissions Open 2026</h2>
                 <h3 class="hero-subtitle">Start your journey into Data Science and Forecasting.</h3>
                 <p class="hero-intro-text">We invite ambitious students who are ready to explore, innovate, and transform data into actionable insights.
                     Our programs are designed to prepare leaders of tomorrow in AI, ML, and Predictive Analytics.</p>
@@ -101,7 +109,7 @@
                     <a href="https://drive.google.com/file/d/1eRqlJU1TYJ7qEXb0yWVopiSnSTpeivUc/view?usp=sharing" class="program-card reveal" style="text-decoration: none;">
                                 <img src="https://images.unsplash.com/photo-1557562645-4eee56b29bc1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="M. Tech. Executives (Data Science) Non CUET PG">
                                 <div class="program-card-content">
-                                    <h4>M. Tech. Executives (Data Science)</h4>
+                                    <h4>M. Tech. Executive (Data Science)</h4>
                                     <p>Non CUET PG 2 Yrs</p>
                                 </div>
                     </a>
@@ -149,7 +157,7 @@
                     </tr>
                     <tr>
                         <td>06.</td>
-                        <td>M. Tech. Executives <br> (Data Science) <br> Non CUET PG 2 Yrs</td>
+                        <td>M. Tech. Executive <br> (Data Science) <br> Non CUET PG 2 Yrs</td>
                         <td>The candidate should have at least 55% aggregate marks in B.E. / B.Tech./ M.Sc. in a relevant subject or any other equivalent degree (including M.C.A.) from a recognised University. Relaxation of 5% marks in eligibility for SC/ ST candidates. Relevant subjects for admission in M.Tech. Data Science, are CS/CSE/IT/Maths/Physics/ Statistics/ Computer Applications or other computer related subjects.</td>
                     </tr>
                 </tbody>
@@ -157,6 +165,442 @@
         </div>
     </section>
 
+
+<!-- =========================================
+            GROUPED FEE TABLE
+========================================= -->
+
+<section class="group-fee-zone">
+
+    <div class="group-fee-container">
+
+        <!-- HEADING -->
+
+        <div class="group-fee-heading">
+
+            <h2 class="group-fee-title">
+                Fee Structure Information
+            </h2>
+
+            <p class="group-fee-subtitle">
+                Semester-wise detailed fee structure for all programmes.
+            </p>
+
+        </div>
+
+
+        <!-- TABLE WRAPPER -->
+
+        <div class="group-fee-table-wrapper">
+
+            <table class="group-fee-table">
+
+                <thead>
+
+                    <!-- TOP HEADER -->
+
+                    <tr class="main-header-row">
+
+                        <th rowspan="2">Programme</th>
+
+                        <th rowspan="2">Semester</th>
+
+                        <th rowspan="2">
+                            Academic Fee
+                        </th>
+
+                        <th rowspan="2">
+                            Development & Maintenance Fee
+                        </th>
+
+                        <th colspan="2" class="group-header">
+                            Student Services Fee
+                        </th>
+
+                        <th rowspan="2">
+                            Examination Fee
+                        </th>
+
+                        <th colspan="2" class="group-header">
+                            Total Rs.
+                        </th>
+
+                    </tr>
+
+
+                    <!-- SUB HEADER -->
+
+                    <tr class="sub-header-row">
+
+                        <th>Boys</th>
+                        <th>Girls</th>
+
+                        <th>Boys</th>
+                        <th>Girls</th>
+
+                    </tr>
+
+                </thead>
+
+
+
+                
+
+   <tbody>
+
+    <!-- ================================= -->
+    <!-- M.SC DATA SCIENCE -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.Sc (Data Science)
+            </span>
+
+            <span class="programme-sub-info">
+                Four Semester (Two Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹15,500</td>
+        <td>₹12,500</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹34,700</td>
+        <td>₹34,480</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹15,500</td>
+        <td>₹12,500</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹34,250</td>
+        <td>₹34,030</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹31,000</td>
+        <td>₹25,000</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹68,950</td>
+        <td>₹68,510</td>
+
+    </tr>
+
+
+
+    <!-- ================================= -->
+    <!-- M.TECH AI & DATA SCIENCE -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.Tech. (Dual Degree)<br>
+                (Artificial Intelligence & Data Science)
+            </span>
+
+            <span class="programme-sub-info">
+                Ten Semester (Five Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹21,000</td>
+        <td>₹14,500</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹42,200</td>
+        <td>₹41,980</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹21,000</td>
+        <td>₹14,500</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹41,750</td>
+        <td>₹41,530</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹42,000</td>
+        <td>₹29,000</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹83,950</td>
+        <td>₹83,510</td>
+
+    </tr>
+
+
+
+    <!-- ================================= -->
+    <!-- MBA BUSINESS ANALYTICS -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.B.A. (Business Analytics)
+            </span>
+
+            <span class="programme-sub-info">
+                Four Semester (Two Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹25,000</td>
+        <td>₹22,500</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹54,200</td>
+        <td>₹53,980</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹25,000</td>
+        <td>₹22,500</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹53,750</td>
+        <td>₹53,530</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹50,000</td>
+        <td>₹45,000</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹1,07,950</td>
+        <td>₹1,07,510</td>
+
+    </tr>
+
+
+
+    <!-- ================================= -->
+    <!-- EXECUTIVE DATA SCIENCE -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.Tech. (Executive) in Data Science
+            </span>
+
+            <span class="programme-sub-info">
+                Four Semester (Two Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹15,000</td>
+        <td>₹12,500</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹34,200</td>
+        <td>₹33,980</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹15,000</td>
+        <td>₹12,500</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹33,750</td>
+        <td>₹33,530</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹30,000</td>
+        <td>₹25,000</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹67,950</td>
+        <td>₹67,510</td>
+
+    </tr>
+
+
+
+    <!-- ================================= -->
+    <!-- BIG DATA ANALYTICS -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.Tech. (Big Data Analytics)
+            </span>
+
+            <span class="programme-sub-info">
+                Four Semester (Two Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹10,000</td>
+        <td>₹7,500</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹24,200</td>
+        <td>₹23,980</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹10,000</td>
+        <td>₹7,500</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹23,750</td>
+        <td>₹23,530</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹20,000</td>
+        <td>₹15,000</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹47,950</td>
+        <td>₹47,510</td>
+
+    </tr>
+
+
+
+    <!-- ================================= -->
+    <!-- M.TECH DATA SCIENCE -->
+    <!-- ================================= -->
+
+    <tr class="fee-row">
+
+        <td rowspan="3" class="programme-column">
+
+            <span class="programme-main-name">
+                M.Tech. (Data Science)
+            </span>
+
+            <span class="programme-sub-info">
+                Four Semester (Two Years)
+            </span>
+
+        </td>
+
+        <td>Odd</td>
+        <td>₹7,500</td>
+        <td>₹6,250</td>
+        <td>₹3,950</td>
+        <td>₹3,730</td>
+        <td>₹2,750</td>
+        <td>₹20,450</td>
+        <td>₹20,230</td>
+
+    </tr>
+
+    <tr class="fee-row">
+
+        <td>Even</td>
+        <td>₹7,500</td>
+        <td>₹6,250</td>
+        <td>₹3,500</td>
+        <td>₹3,280</td>
+        <td>₹2,750</td>
+        <td>₹20,000</td>
+        <td>₹19,780</td>
+
+    </tr>
+
+    <tr class="fee-total-row">
+
+        <td>Total</td>
+        <td>₹15,000</td>
+        <td>₹12,500</td>
+        <td>₹7,450</td>
+        <td>₹7,010</td>
+        <td>₹5,500</td>
+        <td>₹40,450</td>
+        <td>₹40,010</td>
+
+    </tr>
+
+</tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ===== FOOTER ===== -->
     
     <footer class="footer">
         <a href="#top" class="back-top">↑ Back to Top</a>

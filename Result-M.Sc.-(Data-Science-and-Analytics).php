@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M. Tech (Dual Degree) AI & DS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <!-- font styles importing -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    
+
     <style>
         /* RESET AND BASE */
         * {
@@ -170,7 +174,7 @@
                     <div class="page-container">
                         
                         <div class="program-header">
-                            <h1>M. Tech (Data Science)</h1>
+                            <h1>M.Sc. (Data Science and Analytics)</h1>
                             <p class="subtitle"></p>
                         </div>
 
@@ -180,7 +184,11 @@
                                 <h2 class="section-title">Informations: </h2>
                                 
                                 <ul class="notes-list">
-                                    <li><a href="notices/M.Tech.DS&BDA-II_Semester.pdf">Teaching Schedule Time Table – Second Semester (2024-26)</a></li>
+                                   <li>
+								   <a href="results/M.Sc.-Result-III-Sem.pdf">
+								   M.Sc. (Data Science and Analytics) III Semester Dec. 2025 Result
+								   </a>
+								   </li>
                                     
                                 </ul>
                             </section>

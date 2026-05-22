@@ -1,4 +1,4 @@
-/*Code edited by Alivia Hossain, SDSF AI/DS, Sem 1*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +10,10 @@
 body {
     background-color: #f9f9f9;
     color: #222;
+}
+html,
+body{
+    overflow-x: hidden;
 }
 /*school title */
 .school-title {
@@ -136,6 +140,10 @@ body {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
 }
+
+
+
+
 /* === code for the scholarship dropdown menu */
 .scholarship-item {
   position: relative;
@@ -144,7 +152,7 @@ body {
 }
 
 .scholarship-toggle {
-  padding: 0.999px 15px;  /*  */
+  padding: 0px;  /*  */
   list-style: none;
   cursor: pointer;
   display: inline-block;
@@ -261,7 +269,7 @@ body {
 
 /* MAIN LINK */
 .training-toggle {
-  padding: 1px 15px;
+  padding: 0px;
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
@@ -805,25 +813,28 @@ body {
 
 /* Only apply coding font to HOME PAGE slider, not every hero on whole site */
 .hero-slider .hero-text h1 {
-    font-family: Consolas, "Courier New", monospace !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;;
 }
 
 /* Colourful coding-style words */
 .code-colored {
-    font-family: Consolas, "Courier New", monospace !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
 
 .code-colored .c1 {
-    color: #cc99cd; 	/* purple */
+    color: #F4C542; 	
+    
 }
 
 .code-colored .c2 {
-    color: #f8c555; 	/* yellow */
+    color: #DBEAFE;
 }
 
 .code-colored .c3 {
-    color: #67d8ef; 	/* blue */
+    color: rgba(255,255,255,0.92);
 }
 
 
@@ -832,7 +843,9 @@ body {
 .hero-slider .slide .hero-text h1,
 .hero-slider .slide .hero-text .code-colored,
 .hero-slider .slide .hero-text .code-colored span {
-    font-family: Consolas, "Courier New", monospace !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size:80px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -1388,4 +1401,656 @@ body {
     font-size: 13px;
   }
 
+}
+
+
+
+
+
+
+/* Fess Structure page new upadte */
+/* =========================================
+            GROUPED FEE TABLE
+========================================= */
+
+.group-fee-zone{
+    width: 100%;
+    padding: 90px 5%;
+    background: #f4f7fc;
+}
+
+
+/* =========================================
+            MAIN CONTAINER
+========================================= */
+
+.group-fee-container{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* =========================================
+                HEADER
+========================================= */
+
+.group-fee-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.group-fee-title{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #172554;
+    margin-bottom: 14px;
+    line-height: 1.3;
+}
+
+.group-fee-subtitle{
+    font-size: 1rem;
+    color: #64748b;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+            TABLE WRAPPER
+========================================= */
+
+.group-fee-table-wrapper{
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.08);
+}
+
+
+/* =========================================
+                TABLE
+========================================= */
+
+.group-fee-table{
+    width: 100%;
+    min-width: 1400px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+
+/* =========================================
+            TABLE HEADERS
+========================================= */
+
+.group-fee-table thead th{
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #6366f1
+    );
+
+    color: #ffffff;
+
+    padding: 22px 18px;
+
+    text-align: center;
+
+    font-size: 0.95rem;
+
+    font-weight: 600;
+
+    line-height: 1.7;
+
+    letter-spacing: 0.3px;
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+}
+
+
+/* GROUPED HEADERS */
+
+.group-header{
+
+    background: linear-gradient(
+        135deg,
+        #4338ca,
+        #5b5ff0
+    ) !important;
+
+}
+
+
+/* SECOND HEADER ROW */
+
+.sub-header-row th{
+
+    background: #6366f1 !important;
+
+    font-size: 0.88rem;
+
+    font-weight: 700;
+
+    letter-spacing: 0.6px;
+
+}
+
+
+/* =========================================
+                BODY CELLS
+========================================= */
+
+.group-fee-table tbody td{
+
+    padding: 22px 18px;
+
+    text-align: center;
+
+    font-size: 0.95rem;
+
+    color: #334155;
+
+    border: 1px solid rgba(0,0,0,0.05);
+
+    transition: all 0.25s ease;
+
+}
+
+
+/* =========================================
+            ALTERNATE ROWS
+========================================= */
+
+.fee-row:nth-child(even){
+    background: #fafbff;
+}
+
+
+/* =========================================
+                HOVER
+========================================= */
+
+.fee-row:hover td{
+    background: #eef2ff;
+}
+
+
+/* =========================================
+            PROGRAMME COLUMN
+========================================= */
+
+.programme-column{
+
+    min-width: 320px;
+
+    text-align: left !important;
+
+    vertical-align: middle;
+
+    background: #ffffff;
+
+}
+
+
+/* =========================================
+            PROGRAMME TITLE
+========================================= */
+
+.programme-main-name{
+
+    display: block;
+
+    font-size: 1.12rem;
+
+    font-weight: 700;
+
+    color: #0f172a;
+
+    line-height: 1.7;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* =========================================
+            PROGRAMME INFO
+========================================= */
+
+.programme-sub-info{
+
+    display: block;
+
+    font-size: 0.92rem;
+
+    color: #64748b;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+                TOTAL ROW
+========================================= */
+
+.fee-total-row{
+
+    background: #e9eeff;
+
+}
+
+
+.fee-total-row td{
+
+    font-weight: 700;
+
+    color: #111827;
+
+    border-top: 2px solid #6366f1;
+
+}
+
+
+/* =========================================
+        HIGHLIGHT TOTAL AMOUNTS
+========================================= */
+
+.fee-total-row td:last-child,
+.fee-total-row td:nth-last-child(2){
+
+    color: #1d4ed8;
+
+    font-size: 1rem;
+
+}
+
+
+/* =========================================
+            GROUP SEPARATORS
+========================================= */
+
+.group-fee-table tbody td:nth-child(5),
+.group-fee-table tbody td:nth-child(8){
+
+    border-left: 2px solid rgba(99,102,241,0.12);
+
+}
+
+
+/* =========================================
+                SCROLLBAR
+========================================= */
+
+.group-fee-table-wrapper::-webkit-scrollbar{
+    height: 10px;
+}
+
+.group-fee-table-wrapper::-webkit-scrollbar-track{
+    background: #dbe4ff;
+    border-radius: 20px;
+}
+
+.group-fee-table-wrapper::-webkit-scrollbar-thumb{
+    background: #6366f1;
+    border-radius: 20px;
+}
+
+
+/* =========================================
+            RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 1200px){
+
+    .group-fee-table{
+        min-width: 1250px;
+    }
+
+}
+
+
+@media (max-width: 992px){
+
+    .group-fee-zone{
+        padding: 70px 20px;
+    }
+
+    .group-fee-title{
+        font-size: 2.1rem;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .group-fee-title{
+        font-size: 1.8rem;
+    }
+
+    .group-fee-subtitle{
+        font-size: 0.9rem;
+    }
+
+    .group-fee-table thead th,
+    .group-fee-table tbody td{
+
+        padding: 16px 12px;
+
+        font-size: 0.84rem;
+
+    }
+
+    .programme-main-name{
+        font-size: 1rem;
+    }
+
+    .programme-sub-info{
+        font-size: 0.82rem;
+    }
+
+}
+
+
+
+
+
+
+
+/* new header upadted */
+.pro-header{
+
+    width: 100%;
+
+    height: 260px;
+
+    position: relative;
+
+    z-index: 99999; /* allows the small drop downs to appear in front, of scholarships, results and Teaching */
+
+    overflow-x: clip;
+    overflow-y: visible;  /* allows elements to overflow for decorative purposes*/
+
+    border-bottom: 5px solid rgba(255,255,255,0.8);
+
+    isolation: isolate; /* creates a new stacking context to prevent z-index issues with dropdowns */
+    
+}
+.header-bg{
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 1;
+}
+.header-content{
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-left: 40px;
+}
+.right-section-dep-logo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 40px;
+}
+.right-image-dep-logo{
+    width: 140px;
+    height: auto;
+
+    object-fit: contain;
+
+    margin-right:950px;
+
+    margin-left: -200px;
+}
+.left-section{
+
+    display: flex;
+
+    align-items: center;
+}
+.logo-box{
+
+    width: 200px;
+}
+
+.logo{
+
+    width: 95%;
+
+    padding-right: 30px;
+
+    margin-left: -20px;
+
+    object-fit: contain;
+}
+
+.title-section{
+
+    margin-left: -45px;
+
+    margin-top: -30px;
+}
+.college-name h1{
+
+    color: white;
+
+    font-size: 20px;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    margin-top:40px;
+}
+.department-name h2{
+
+    color: #f2b300;
+
+    font-size: 50px;
+
+    line-height: 1;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    width: 850px;
+
+    margin-top: 10px;
+}
+.address h3{
+    color: rgb(255, 255, 255);
+
+    font-size: 15px;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 300;
+
+    margin-top: 10px;
+}
+
+.contact-row{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 5px;
+}
+
+.contact-item{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0px;
+}
+
+.contact-item a{
+
+    text-decoration: none;
+
+    color: #ffebeb;
+
+    font-size: 16.5px;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 500;
+
+    transition: 0.2s ease;
+}
+
+.contact-item a:hover{
+
+     color: #f44c4c;
+
+    text-decoration: underline;
+}
+
+
+
+.contact-icon{
+
+    width: 28px;
+
+    object-fit: contain;
+}
+
+.divider{
+
+    width: 2px;
+
+    height: 28px;
+
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+
+
+/* admission pop-up page */
+/* POPUP BACKGROUND */
+#popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    inset:0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index:9999999;
+}
+
+/* POPUP BOX */
+.popup-box{
+    position: relative;
+    width: 70%;
+    max-width: 850px;
+
+    animation: popupFade 0.4s ease;
+}
+
+/* POPUP IMAGE */
+.popup-box img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+/* CLOSE BUTTON */
+#close-popup{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #001f5c;
+    color: white;
+
+    font-size: 28px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#close-popup:hover{
+    background: #ffcc00;
+    color: black;
+}
+
+/* ANIMATION */
+@keyframes popupFade{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+    .popup-box{
+        width: 95%;
+    }
+
+    #close-popup{
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+    }
 }

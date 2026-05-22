@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/css/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font styles importing -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="about-page">
@@ -106,7 +112,7 @@
             
             <hr class="section-divider">
             
-            <section id="developers-section" class="developers-section">
+           <!-- <section id="developers-section" class="developers-section">
                 <h2 class="developers-title">Meet the Innovators</h2>
                 <p class="developers-intro">
                     The success of this site is powered by our core team's commitment and innovation.
@@ -160,7 +166,7 @@
         
         </div> <script>
             // All previous accordion JavaScript is now removed.
-        </script>
+        </script> -->
 
     </main>
     <!--Script fot the Palcement so that it opens here -->
