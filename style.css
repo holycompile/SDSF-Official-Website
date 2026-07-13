@@ -16,6 +16,8 @@ body{
     overflow-x: hidden;
 }
 /*school title */
+/* UNUSED LEGACY CSS: old school-title header block is not referenced in current PHP/HTML/JS. */
+@media not all {
 .school-title {
     text-align: center;
     padding: 5px 0;
@@ -27,6 +29,7 @@ body{
     font-size: 37px;
     color: #2d3748;
     font-weight: 700;
+}
 }
 
 
@@ -56,9 +59,12 @@ body{
 }
 
 /* Adjusted for better spacing control */
+/* UNUSED LEGACY CSS: old navbar-right logo layout is not referenced by current header.php. */
+@media not all {
 .navbar-right{
     display: flex;
     align-items: center;
+}
 }
 
 /* Adjusted for uniform spacing */
@@ -74,6 +80,8 @@ body{
 }
 
 /* Adjusted for uniform spacing */
+/* UNUSED LEGACY CSS: old university-logo class is not referenced by current header.php. */
+@media not all {
 .university-logo {
     height: 70px;
     width: 80px;
@@ -84,6 +92,7 @@ body{
     margin-right: 10px;
     margin-top: -30px;
     margin-bottom:13px;
+}
 }
 
 .title h1 {
@@ -199,6 +208,8 @@ body{
 
 /*code for the Placement stuff */
 
+/* UNUSED LEGACY CSS: old teaching/training schedule dropdown styles are not used by active markup. */
+@media not all {
 
 /* Inner Teaching Schedules Panel */
 .ts-content {
@@ -362,12 +373,15 @@ body{
 .semester-links a:hover {
   text-decoration: underline;
 }
+}
 
 
 
 
 
 /* ===== HAMBURGER MENU STYLES ===== */
+/* UNUSED LEGACY CSS: old hamburger menu classes are not present in the active header markup. */
+@media not all {
 .hamburger-menu-container {
     position: relative; 
     display: flex;
@@ -455,6 +469,7 @@ body{
 
 #menu-toggle:checked ~ .hamburger-icon span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+}
 }
 /* ===== END HAMBURGER MENU STYLES ===== */
 
@@ -617,6 +632,8 @@ body{
 }
 
 /* Placeholder for contributors without specific photos - Larger and no border */
+/* UNUSED LEGACY CSS: contributor-photo-placeholder is not used by the current contributor modal markup. */
+@media not all {
 .contributor-photo-placeholder {
     width: 140px;
     height: 140px;
@@ -628,6 +645,7 @@ body{
     /* Removed border: 3px solid #ccc; */
     font-size: 60px; /* Larger icon size */
     color: #aaa; /* Lighter icon color */
+}
 }
 
 
@@ -760,6 +778,8 @@ body{
 
 
 /* ===== News & Events ===== */
+/* UNUSED LEGACY CSS: news-events/news-container wrapper is not used by the current homepage/events markup. */
+@media not all {
 .news-events {
     padding: 3rem 5rem;
     background-color: #fff;
@@ -776,6 +796,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+}
 }
 
 .news-card {
@@ -951,6 +972,8 @@ body{
 
 /* part for the time table and stuffs */
 /* DROPDOWN SECTION */
+/* UNUSED LEGACY CSS: old notice dropdown styles are not used by active notice markup. */
+@media not all {
 .dropdown {
     cursor: pointer;
 }
@@ -997,9 +1020,12 @@ body{
 .dropdown-content li a:hover {
     text-decoration: underline;
 }
+}
 
 
 /* Training & Placement Section */
+/* UNUSED LEGACY CSS: old Training & Placement section classes are not referenced in active pages. */
+@media not all {
 .tp-section {
     width: 90%;
     max-width: 1100px;
@@ -1051,6 +1077,7 @@ body{
     color: #333;
     line-height: 1.5;
     font-weight: 400;
+}
 }
 
 
@@ -1949,11 +1976,14 @@ body{
 
 
 
+/* UNUSED LEGACY CSS: contact-icon is not referenced by current header/footer markup. */
+@media not all {
 .contact-icon{
 
     width: 28px;
 
     object-fit: contain;
+}
 }
 
 .divider{

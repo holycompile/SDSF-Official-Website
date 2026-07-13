@@ -501,6 +501,8 @@ section {
 
 
 /* ===== PROCESS SECTION ===== */
+/* UNUSED LEGACY CSS: process/date/apply sections are not present in the current admission.php markup. */
+@media not all {
 .process-section {
     text-align: center;
     position: relative;
@@ -813,6 +815,7 @@ section {
 .non-cuet-apply-section .apply-btn:hover {
     color: #fff;
 }
+}
 
 
 /* ===== FOOTER ===== */
@@ -850,20 +853,23 @@ section {
         flex-basis: 45%;
     }
 
-    .step,
-    .date-card {
-        flex-basis: 45%;
-    }
+    /* UNUSED LEGACY CSS: responsive rules for inactive process/date/apply sections. */
+    @media not all {
+        .step,
+        .date-card {
+            flex-basis: 45%;
+        }
 
-    .apply-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 4rem 3rem;
-        margin: 2rem auto;
-    }
+        .apply-section {
+            flex-direction: column;
+            text-align: center;
+            padding: 4rem 3rem;
+            margin: 2rem auto;
+        }
 
-    .apply-section h2 {
-        font-size: 2.2rem;
+        .apply-section h2 {
+            font-size: 2.2rem;
+        }
     }
 
     .detailed-admission-info {
@@ -904,11 +910,18 @@ section {
     }
 
     .programs-section h2,
-    .detailed-admission-info h2,
-    .process-section h2,
-    .dates-section h2 {
+    .detailed-admission-info h2 {
         font-size: 2rem;
         margin-bottom: 2rem;
+    }
+
+    /* UNUSED LEGACY CSS: responsive headings for inactive process/date sections. */
+    @media not all {
+        .process-section h2,
+        .dates-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
     }
 
     .program-type h3 {
@@ -917,10 +930,13 @@ section {
     }
 
     
-    .step,
-    .date-card {
-        flex-basis: 100%;
-        min-width: 100%; /* Completed line */
+    /* UNUSED LEGACY CSS: responsive cards for inactive process/date sections. */
+    @media not all {
+        .step,
+        .date-card {
+            flex-basis: 100%;
+            min-width: 100%; /* Completed line */
+        }
     }
 
     .quick-apply-link {
@@ -942,21 +958,24 @@ section {
         font-size: clamp(1rem, 4vw, 1.5rem);
     }
 
-    .apply-section {
-        padding: 4rem 1.5rem;
-    }
+    /* UNUSED LEGACY CSS: responsive rules for inactive apply section. */
+    @media not all {
+        .apply-section {
+            padding: 4rem 1.5rem;
+        }
 
-    .apply-section h2 {
-        font-size: 2rem;
-    }
-    
-    .apply-section p {
-        font-size: 1rem;
-    }
+        .apply-section h2 {
+            font-size: 2rem;
+        }
 
-    .apply-btn {
-        padding: 1rem 2rem;
-        font-size: 1rem;
+        .apply-section p {
+            font-size: 1rem;
+        }
+
+        .apply-btn {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+        }
     }
 
     .notes {

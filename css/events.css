@@ -104,12 +104,15 @@
 }
 
 /* ===== SECTION INTRO ===== */
+/* UNUSED LEGACY CSS: section-intro is not present in current events.php markup. */
+@media not all {
 .section-intro {
     text-align: center;
     font-size: 1.2rem;
     color: #666;
     margin-bottom: 3rem;
     font-style: italic;
+}
 }
 
 
@@ -172,6 +175,8 @@
     margin-bottom: 1.3rem;
 }
 
+/* UNUSED LEGACY CSS: news-link is not present in current events.php markup. */
+@media not all {
 .news-link {
     font-size: 0.9rem;
     color: #0056b3;
@@ -182,6 +187,7 @@
 
 .news-link:hover {
     text-decoration: underline;
+}
 }
 .news-card {
     opacity: 0;
@@ -327,10 +333,13 @@
     }
 
     /* SECTION INTRO */
+    /* UNUSED LEGACY CSS: mobile section-intro styles are not used by current events.php markup. */
+    @media not all {
     .section-intro {
         font-size: 1rem;
         margin-bottom: 2rem;
         padding: 0 0.5rem;
+    }
     }
 
     /* NEWS GRID */

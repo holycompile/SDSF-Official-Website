@@ -73,6 +73,7 @@ p, li {
     gap: 1rem;
 }
 
+/* UNUSED LEGACY CSS: old commented-out navbar logo layout is not used by current iqac.html markup.
  **ADJUSTED: Removed fixed gap to control spacing better** 
 .navbar-right{
     display: flex;
@@ -99,6 +100,7 @@ p, li {
     object-fit: cover;
     margin-right: 10px;
 }
+*/
 
 .title h1 {
     font-size: 1.3rem;
@@ -464,10 +466,16 @@ h2{
 }
 .info-card:hover{ transform:translateY(-6px); box-shadow:0 22px 60px rgba(0,0,0,0.1); }
 
+/* UNUSED LEGACY CSS: timeline-vert is not present in current iqac.html timeline markup. */
+@media not all {
 .timeline-vert{ border-left:2px solid rgba(0,0,0,0.05); padding-left:18px; }
+}
 .timeline-item{ position:relative; margin-bottom:18px; }
 .timeline-item::before{ content:""; position:absolute; left:-12px; top:6px; width:12px; height:12px; border-radius:50%; background:linear-gradient(90deg,var(--accent-2),var(--accent)); box-shadow:0 8px 20px rgba(106,70,255,0.12); }
+/* UNUSED LEGACY CSS: t-date is not present in current iqac.html timeline markup. */
+@media not all {
 .t-date{ color:var(--muted); font-size:0.92rem; margin-bottom:6px; }
+}
 
 .table-wrapper{ overflow-x:auto; margin-top:12px; }
 .committee-table{ width:100%; border-collapse:collapse; }

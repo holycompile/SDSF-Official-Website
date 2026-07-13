@@ -126,11 +126,14 @@ body {
 
 /* --- General Section Styles ---
 */
+/* UNUSED LEGACY CSS: explore-section wrapper is not present in current about.php markup. */
+@media not all {
 .explore-section {
     padding: 4rem 10rem;
     border-radius: 12px;
     margin: 2rem auto;
     overflow: hidden
+}
 }
 
 .section-title {
@@ -153,12 +156,15 @@ body {
     margin: 10px auto 0;
 }
 
+/* UNUSED LEGACY CSS: section-underline is not present in current about.php markup. */
+@media not all {
 .section-underline {
     width: 90px;
     height: 4px;
     background: #4a68ff;
     margin: 0.5rem auto 3rem auto;
     border-radius: 10px;
+}
 }
 
 /* --- Soft Background Section ---
@@ -209,6 +215,8 @@ body {
     border-top: 1px solid #ddd;
 }
 
+/* UNUSED LEGACY CSS: next-section block is not present in current about.php markup. */
+@media not all {
 .next-section {
     text-align: center;
     padding: 2rem 1rem;
@@ -223,6 +231,7 @@ body {
 .next-section p {
     font-size: 1.1rem;
     color: #555;
+}
 }
 
 /* --- General Info Card (Replaces Accordion) ---
@@ -486,6 +495,8 @@ body {
   }
 
   /* ---- MAIN SECTIONS ---- */
+  /* UNUSED LEGACY CSS: mobile about-container/about-card styles are not used by current about.php markup. */
+  @media not all {
   .about-container {
     width: 92%;
     margin: 0 auto;
@@ -506,10 +517,14 @@ body {
     line-height: 1.7;
     text-align: justify;
   }
+  }
   
+  /* UNUSED LEGACY CSS: mobile explore-section styles are not used by current about.php markup. */
+  @media not all {
   .explore-section {
     padding: 2.5rem 1.2rem;
     margin: 1.5rem auto;
+  }
   }
 
   .soft-background-section {

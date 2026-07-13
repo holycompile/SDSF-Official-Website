@@ -37,6 +37,7 @@
             </div>
 
             </div>
+        <!-- popup section: this block controls the admission poster overlay  -->
   
   <!-- ===== Header / Navbar ===== -->
           <!--  <div id="header"></div>
