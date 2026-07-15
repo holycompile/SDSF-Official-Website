@@ -102,7 +102,7 @@
                         Your journey into data science, AI, and predictive analytics starts here, and we are excited to see the incredible innovations you will bring to the world."</i>      
                         <br>  
                         <br>           
-                          — Prof. Sanjiv Tokekar
+                          — Dr. Govind Maheshwari 
                     </p>
                 </div>
                 

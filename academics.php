@@ -41,6 +41,7 @@
             </div>
 
         <section class="academic-options-section">
+
             <h2>Academic Resources</h2>
             <p class="section-subtitle">Access important academic information and resources</p>
 
@@ -453,6 +454,36 @@
 
             </div>
         </section>
+        
+
+        <!-- Time Table section -->
+
+        <section class="academic-options-section">
+             <h2>Time Tables</h2>
+             <p class="section-subtitle">Access important Time Table updates for the current Academic Year</p>
+             <section class="time-table">
+                
+                <div class="time-table-list">
+                    <span class="bullet"></span>
+                    <p>
+                        <ul>
+                            <li><a href="/time_tables/AIDS.pdf">M.Tech ( Dual Degree ) Artificial Intelligence and Data Science </a></li>
+                            <br>
+                            <li><a href="/time_tables/MSc.pdf"> M.Sc. Data Science and Analytics</a></li>
+                            <br>
+                            <li><a href="/time_tables/Executive.pdf"> Executive M.Tech (Data Science)</a></li>
+                            <br>
+                            <li><a href="/time_tables/M.Tech 2 year.pdf"> M.Tech. ( Data Science / BDA )</a></li>
+                             <br>
+                            <li><a href="/time_tables/MBA.pdf"> MBA ( Business Analytics )</a></li>
+                            
+                        </ul>
+                    </p>
+
+                </div>
+            </section>
+
+         </section>
     </main>
 
 
@@ -467,13 +498,13 @@
 
     <div class="faculty-card fade-in">
         <div class="faculty-photo">
-            <img src="/photoes/faculty1.jpg" alt="Dr. Sanjiv Tokekar">
+            <img src="/photoes/govind_maheswari_sir.png" alt="">
         </div>
         <div class="faculty-info">
-            <h2>Dr. Sanjiv Tokekar</h2>
+            <h2>Dr.Govind Maheshwari</h2>
             <p><strong>Position:</strong> Professor & Head</p>
             <p><strong>Phone:</strong> +91 731 2470330 (O)</p>
-            <p><strong>Email:</strong> stokekar@ietdavv.edu.in</p>
+            <p><strong>Email:</strong> govind_maheshwari2001@yahoo.com</p>
         </div>
     </div>
 

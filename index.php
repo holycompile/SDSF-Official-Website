@@ -186,12 +186,32 @@
 
                       
 
-                      <div class="notice-item">
+                        
+                        <div class="notice-item">
+                          <span class="bullet"></span>
+                          <p>
+                              <a href="Second Round Admission of M.Tech. (Data Science) M.Tech. (Data Science) For Working Executive Batch-(2026-2028).pdf">Second Round Admission of M.Tech. (Data Science)/M.Tech. (Data Science) For Working Executive Batch-(2026-2028)</a>
+                          </p>
+                         </div>
+                  
+                        <div class="notice-item">
+                          <span class="bullet"></span>
+                          <p>
+                              <a href="Second Round Admission of M.Sc. (Data Science and Analytics).pdf">Second Round Admission of M.Sc. (Data Science and Analytics) at School of Data Science and Forecasting</a>
+                          </p>
+                         </div>
+
+
+                         <div class="notice-item">
                           <span class="bullet"></span>
                           <p>
                               <a href="admission.php">Admission 2026</a>
                           </p>
-                      </div>
+                        </div>
+                    
+
+                      
+
                       <!--
                               Hidden content
                               <div class="dropdown-content">
