@@ -307,7 +307,9 @@
                         <div class="footer-col" id="contact">
                             <h3>CONTACT US:</h3>
                             <a href="#">Phone: 0731-2470330</a><br>
-                            <a href="#">Email: stokekar@ietdavv.edu.in</a><br>
+                            <a href="#">Email:govind_maheshwari2001@yahoo.com</a><br>
+                            
+
                             
                         </div>
 
