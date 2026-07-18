@@ -1,4 +1,4 @@
-// Code contributed by Alivia Hossain, SDSF AI/DS, Sem 1
+
 document.addEventListener("DOMContentLoaded", function() {
 
     // ===== WAIT FOR HEADER TO LOAD FIRST =====

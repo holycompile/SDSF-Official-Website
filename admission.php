@@ -1,4 +1,4 @@
-<!--Code Contributed by Alivia Hossain, SDSF AI/DS Sem 1-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
