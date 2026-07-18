@@ -202,7 +202,7 @@
             <!-- Right side image -->
             <div class="right-section-dep-logo">
 
-                <img src="photoes/deplogo.png" class="right-image-dep-logo">
+                <img src="photoes/departmentlogo_transparent.png" class="right-image-dep-logo">
 
             </div>
            
