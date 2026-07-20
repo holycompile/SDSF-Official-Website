@@ -30,8 +30,8 @@
             <h3>SOCIAL MEDIA</h3>
             <ul class="social-list">
                 <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+                    <a href="https://www.linkedin.com/school/school-of-data-science-and-forecasting-davv-university/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
                     </a>
                 </li>
                 <li>
@@ -40,20 +40,22 @@
                     </a>
                 </li>
                 <li>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+                    </a>
+                </li>
+                
+                <li>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-twitter"></i> <span>Twitter</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                    <a href="" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-youtube"></i> <span>YouTube</span>
                     </a>
                 </li>
-                <li>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
-                    </a>
-                </li>
+                
             </ul>
         </div>
 
@@ -65,10 +67,7 @@
                 <li><a href="https://www.dauniv.ac.in/ragging" target="_blank" rel="noopener noreferrer">Anti-Ragging Committee</a></li>
                 <li><a href="https://www.dauniv.ac.in/grievance-redressal-system" target="_blank" rel="noopener noreferrer">Grievance Redressal Committee</a></li>
                 <li><a href="https://www.dauniv.ac.in/digital-lib" target="_blank" rel="noopener noreferrer">Digital Library</a></li>
-                <li><a href="iqac/iqac.html">IQAC Cell</a></li>
-                <li><a href="academics.php">Ordinance & Statutes</a></li>
-                <li><a href="events.php">Technology & Bhartiya Bhasha</a></li>
-                <li><a href="https://e-sanad.nic.in" target="_blank" rel="noopener noreferrer">e-SANAD</a></li>
+                
             </ul>
         </div>
 
@@ -77,9 +76,9 @@
             <h3>PARENTS</h3>
             <ul class="footer-links-list">
                 <li><a href="https://www.google.com/maps/dir/22.6891486,75.867182/davv+takshila+campus/@22.6898923,75.8673051,18z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3962fcef50d20ba3:0x592abbfe7172123e!2m2!1d75.8704159!2d22.6892814" target="_blank" rel="noopener noreferrer">How to Reach</a></li>
-                <li><a href="https://www.google.com/maps/search/nearby+hotels+in+DAVV+Takshila+campus/@22.6899046,75.8634427,16z/data=!3m1!4b1" target="_blank" rel="noopener noreferrer">Hotels in Indore</a></li>
+                <li><a href="https://www.google.com/maps/search/nearby+hotels+in+DAVV+Takshila+campus/@22.6899046,75.8634427,16z/data=!3m1!4b1" target="_blank" rel="noopener noreferrer">Accommodation for Parents & Visitors near DAVV Takshila Campus</a></li>
                 <li><a href="https://www.dauniv.ac.in" target="_blank" rel="noopener noreferrer">DAVV Official Portal</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                
             </ul>
         </div>
     </div>
