@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repository is shared **solely for portfolio and demonstration purposes**.
+> It was developed for the **School of Data Science and Forecasting (SDSF), DAVV**.
+> Please do not reuse, redistribute, or deploy this code without prior permission from the department.
+
 # School of Data Science and Forecasting (SDSF) Official Website
 
 The official, responsive website of the **School of Data Science and Forecasting (SDSF)**, a premier department under **Devi Ahilya Vishwavidyalaya (DAVV)** in Indore, Madhya Pradesh, India. This website serves as a digital hub for prospective students, current enrollees, faculty, and administrative activities.
