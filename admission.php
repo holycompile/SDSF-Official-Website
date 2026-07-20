@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -599,7 +598,6 @@
 </section>
 
 
-    <?php include("footer.php"); ?>
 
     <script src="admission.js"></script>
 
@@ -620,5 +618,6 @@
                     });
                 });
                 </script>
+    <?php include("footer.php"); ?>
 </body>
 </html>

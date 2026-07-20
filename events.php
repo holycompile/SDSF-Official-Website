@@ -119,6 +119,8 @@
                     <p>get ready for more events upcomming the year</p>
                 </div>
             </div>
+        </div>
+    </section>
             
     <script src="events.js"></script>
 

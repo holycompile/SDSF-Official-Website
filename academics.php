@@ -603,9 +603,7 @@
             
         </div>
      </section>
-
-
-    <?php include("footer.php"); ?>
+    </div> <!-- End faculty-wrapper -->
 
     <script>
         function openBox(id) {
@@ -633,7 +631,7 @@
     </script>
 
     <script>
-                    // Fade-in animations
+            // Fade-in animations
             document.addEventListener("DOMContentLoaded", () => {
                 const cards = document.querySelectorAll(".fade-in");
 
@@ -648,29 +646,6 @@
 
                 cards.forEach(card => observer.observe(card));
             });
-
-
-            // Back to Top Button
-            const topBtn = document.createElement("div");
-            topBtn.id = "backToTop";
-            topBtn.innerHTML = "↑";
-            document.body.appendChild(topBtn);
-
-            window.addEventListener("scroll", () => {
-                if (window.scrollY > 500) {
-                    topBtn.classList.add("show");
-                } else {
-                    topBtn.classList.remove("show");
-                }
-            });
-
-            topBtn.addEventListener("click", () => {
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-            });
-
     </script>
 
     <!--Script fot the Palcement so that it opens here -->
@@ -690,5 +665,6 @@
                     });
                 });
                 </script>
+    <?php include("footer.php"); ?>
 </body>
 </html>

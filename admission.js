@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
 
     // ===== WAIT FOR HEADER TO LOAD FIRST =====
