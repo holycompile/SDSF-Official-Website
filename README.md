@@ -2,6 +2,9 @@
 > This repository is shared **solely for portfolio and demonstration purposes**.
 > It was developed for the **School of Data Science and Forecasting (SDSF), DAVV**.
 > Please do not reuse, redistribute, or deploy this code without prior permission from the department.
+> © SDSF - School of Data Science and Forecasting, DAVV Indore. All Rights Reserved.
+
+# Visit the Offcial Website: https://dsf.dauniv.ac.in/
 
 # School of Data Science and Forecasting (SDSF) Official Website
 
@@ -145,7 +148,3 @@ Since the project uses PHP for files inclusion (e.g. `<?php include("header.php"
 
 ---
 
-## 🎨 Design & Accessibility Details
-- **Brand Colors:** Deep Blue (`#162b57`) is the dominant color symbolizing wisdom, trust, and forecasting, accented by vibrant Orange (`#ff9900`) for navigation highlights and key links.
-- **Scroll Reveal Animations:** Interactive sections smoothly fade and slide into view as the user scrolls down the page, utilizing CSS transitions and an IntersectionObserver in `admission.js`.
-- **Responsive Navigation:** Built using mobile-friendly layouts, with custom-sized padding and sizing rules specified inside `style.css` and page-specific stylesheets.
