@@ -2,10 +2,10 @@
 > This repository is shared **solely for portfolio and demonstration purposes**.
 > It was developed for the **School of Data Science and Forecasting (SDSF), DAVV**.
 > Please do not reuse, redistribute, or deploy this code without prior permission from the department.
-> 
+>
+> Visit the official website: https://dsf.dauniv.ac.in/
 > © SDSF - School of Data Science and Forecasting, DAVV Indore. All Rights Reserved.
 
-# Visit the Offcial Website: https://dsf.dauniv.ac.in/
 
 # School of Data Science and Forecasting (SDSF) Official Website
 
