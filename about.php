@@ -169,6 +169,9 @@
         </script> -->
 
     </main>
+
+    <?php include("footer.php"); ?>
+
     <!--Script fot the Palcement so that it opens here -->
                 <script>
                 document.addEventListener("click", (e) => {

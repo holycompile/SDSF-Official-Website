@@ -605,9 +605,7 @@
      </section>
 
 
-    <footer class="footer">
-        <a href="#top" class="back-top">↑ Back to Top</a>
-    </footer>
+    <?php include("footer.php"); ?>
 
     <script>
         function openBox(id) {

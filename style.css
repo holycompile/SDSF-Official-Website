@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -1108,46 +1110,217 @@ body{
 
 
 /* FOOTER STYLING 	of conatact us part*/
+/* ==========================================================================
+   MODERN SDSF FOOTER STYLING (Reference Image Design)
+   ========================================================================== */
 .main-footer {
-    background: #0f1736;
-    color: #eee;
-    padding: 60px 0;
+    background-color: #181b34; /* Dark navy background matching reference image */
+    color: #8e99bc;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    position: relative;
+    padding: 0;
     margin-top: 50px;
+    border-top: 3px double rgba(255, 255, 255, 0.85); /* Top subtle double border */
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.footer-top-bar {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px 5px;
+}
+
+.footer-search-btn {
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+    padding: 5px;
+}
+
+.footer-search-btn:hover {
+    color: #a0acdb;
+    transform: scale(1.1);
 }
 
 .footer-container {
-    width: 90%;
-    max-width: 1300px;
-    margin: auto;
+    width: 92%;
+    max-width: 1280px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1.3fr 0.9fr 1fr 0.8fr;
     gap: 40px;
+    padding: 15px 0 45px 0;
 }
 
 .footer-col h3 {
-    color: #FAFAFA;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    line-height: 1.4;
 }
 
 .footer-col p {
-    color: #ccc;
-    line-height: 1.6;
-    margin: 6px 0;
+    color: #8e99bc;
+    font-size: 0.86rem;
+    line-height: 1.7;
+    margin: 4px 0;
+    font-weight: 400;
 }
 
-.footer-col a {
-    color: #b7c4ff;
+.footer-col p.univ-title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.92rem;
+    margin-bottom: 6px;
+}
+
+.footer-col p.univ-subtitle {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.footer-col p.contact-info {
+    color: #a4b0d8;
+    margin-top: 6px;
+}
+
+.footer-col p.contact-info strong {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Lists styling */
+.social-list,
+.footer-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list li,
+.footer-links-list li {
+    margin-bottom: 10px;
+}
+
+.social-list a,
+.footer-links-list a {
+    color: #8e99bc;
     text-decoration: none;
-    line-height: 1.8;
-    font-size: 0.95rem;
-    transition: 0.2s ease;
+    font-size: 0.86rem;
+    font-weight: 400;
+    line-height: 1.6;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.25s ease, transform 0.25s ease;
 }
 
-.footer-col a:hover {
-    color: #fff;
+.social-list a i {
+    width: 16px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #8e99bc;
+    transition: color 0.25s ease;
+}
+
+.social-list a:hover,
+.footer-links-list a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-list a:hover i {
+    color: #ffffff;
+}
+
+/* Footer Bottom Bar & Red Back to top */
+.footer-bottom-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #15172d;
+    padding: 16px 0;
+    position: relative;
+}
+
+.footer-bottom-container {
+    width: 92%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text {
+    color: #727fa7;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sdsf-back-to-top {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    background-color: #9e3636; /* Red square button from reference image */
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sdsf-back-to-top:hover {
+    background-color: #b84040;
+    color: #ffffff;
+}
+
+.sdsf-back-to-top i {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness for Modern Footer */
+@media (max-width: 992px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding-bottom: 30px;
+    }
+
+    .footer-bottom-container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .sdsf-back-to-top {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 5px;
+    }
 }
 
 
