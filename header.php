@@ -1,4 +1,7 @@
 <!-- Header- Section here for admission -->
+    <div class="header-top-bar">
+        © SDSF - School of Data Science and Forecasting, DAVV Indore. All Rights Reserved.
+    </div>
     <header class="pro-header">
 
         
@@ -106,72 +109,7 @@
 
         <!-- Please note for now Teaching and Results has been removed, will be realocated once all recent ios will be there -->
 
-                    <!--
-                        <--Teaching--
-                            <div class="contact-item">
-                                    <li class="training-item">
-                                    <a href="#" class="training-toggle">Teaching</a>
 
-                                    <ul class="training-menu">
-
-                                        <li>
-                                            <ol class="program-list">
-
-                                                <li><a href="ds.php">M.Tech. (Data Science)</a></li>
-
-                                                <li><a href="bda.php">M.Tech. (Big Data Analytics)</a></li>
-
-                                                <li><a href="exeds.php">M.Tech. (Executive in Data Science)</a></li>
-
-                                                <li><a href="aids.php">M.Tech. (Integrated AI & DS)</a></li>
-
-                                                <li><a href="mba.php">M.B.A. (Business Analytics)</a></li>
-
-                                                <li><a href="msc.php">M.Sc. (Data Science & Analytics)</a></li>
-
-                                            </ol>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                                    
-
-                            </div>
-                            -->   
-                            <!--
-
-                                                                            <div class="contact-item">
-
-                                                                            <li class="training-item">
-                                                            <a href="#" class="training-toggle">Results</a>
-
-                                                            <ul class="training-menu">
-
-                                                                <li>
-                                                                    <ol class="program-list">
-
-                                                                        <li><a href="#">M.Tech. (Data Science)</a></li>
-
-                                                                        <li><a href="#">M.Tech. (Big Data Analytics)</a></li>
-
-                                                                        <li><a href="#">M.Tech. (Executive in Data Science)</a></li>
-
-                                                                        <li><a href="#">M.Tech. (Integrated AI & DS)</a></li>
-
-                                                                        <li><a href="#">M.B.A. (Business Analytics)</a></li>
-
-                                                                        <li><a href="Result-M.Sc.-(Data-Science-and-Analytics).php">M.Sc. (Data Science & Analytics)</a></li>
-
-                                                                    </ol>
-                                                                </li>
-
-                                                            </ul>
-                                                        </li>
-
-
-                                                </div>
-                            -->
 
                             
 

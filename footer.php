@@ -39,22 +39,10 @@
                         <i class="fab fa-instagram"></i> <span>Instagram</span>
                     </a>
                 </li>
-                <li>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f"></i> <span>Facebook</span>
-                    </a>
-                </li>
                 
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-twitter"></i> <span>Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> <span>YouTube</span>
-                    </a>
-                </li>
+                
+                
+                
                 
             </ul>
         </div>

@@ -17,22 +17,7 @@ html,
 body{
     overflow-x: hidden;
 }
-/*school title */
-/* UNUSED LEGACY CSS: old school-title header block is not referenced in current PHP/HTML/JS. */
-@media not all {
-.school-title {
-    text-align: center;
-    padding: 5px 0;
-    background: #f8f9fa; /* or your preferred background color */
-}
 
-.school-title h1 {
-    margin: 0;
-    font-size: 37px;
-    color: #2d3748;
-    font-weight: 700;
-}
-}
 
 
 /* ===== Blue Top Bar ===== */
@@ -60,14 +45,7 @@ body{
     margin-top: 1rem;
 }
 
-/* Adjusted for better spacing control */
-/* UNUSED LEGACY CSS: old navbar-right logo layout is not referenced by current header.php. */
-@media not all {
-.navbar-right{
-    display: flex;
-    align-items: center;
-}
-}
+
 
 /* Adjusted for uniform spacing */
 .dept-logo {
@@ -81,21 +59,7 @@ body{
     margin-top:-25px;
 }
 
-/* Adjusted for uniform spacing */
-/* UNUSED LEGACY CSS: old university-logo class is not referenced by current header.php. */
-@media not all {
-.university-logo {
-    height: 70px;
-    width: 80px;
-    background-color: #ddd;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-left: 0.6rem; 
-    margin-right: 10px;
-    margin-top: -30px;
-    margin-bottom:13px;
-}
-}
+
 
 .title h1 {
     font-size: 1.3rem;
@@ -210,172 +174,7 @@ body{
 
 /*code for the Placement stuff */
 
-/* UNUSED LEGACY CSS: old teaching/training schedule dropdown styles are not used by active markup. */
-@media not all {
 
-/* Inner Teaching Schedules Panel */
-.ts-content {
-  display: none;
-  background: #f7f8fc;
-  border-radius: 12px;
-  padding: 18px 20px;
-  margin-top: 10px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-
-  /* smooth animation */
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.35s ease, padding 0.3s ease;
-}
-
-/* When opened */
-.ts-wrapper.open .ts-content {
-  display: block;
-  max-height: 600px;   /* enough for content */
-  padding: 18px 20px;
-}
-
-/* Program list styling */
-.program-list {
-  padding-left: 0.5rem;
-  margin: 0;
-}
-
-.program-list > li {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 10px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-/* Remove border on last */
-.program-list > li:last-child {
-  border-bottom: none;
-}
-
-/* Semester links */
-.semester-links {
-  margin-top: 6px;
-  padding-left: 20px;
-}
-
-.semester-links li a {
-  color: #4f46e5;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-.semester-links li a:hover {
-  text-decoration: underline;
-}
-
-
-
-/* WRAPPER */
-.training-item {
-  position: relative;
-  z-index: 9999;
-  list-style: none;
-}
-
-/* MAIN LINK */
-.training-toggle {
-  padding: 0px;
-  cursor: pointer;
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-/* DROPDOWN BOX */
-.training-menu {
-  position: absolute;
-  top: 100%;
-  left: -50px;
-  transform: translateX(-20px);
-  background: white;
-  padding: 15px 20px;
-  border-radius: 6px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  list-style: none;
-  display: none;
-  min-width: 250px;
-  z-index: 99999;
-}
-
-.training-menu li a {
-  display: block;
-  padding: 8px 0;
-  text-decoration: none;
-  color: #2d3748;
-  font-weight: 500;
-}
-
-.training-menu li a:hover {
-  color: #4c51bf;
-}
-
-/* default hover behavior */
-.training-item:hover .training-menu {
-  display: block;
-}
-
-/* FIX: dropdown must NOT close when hovering inside */
-.training-item:hover .training-menu,
-.training-menu:hover {
-  display: block !important;
-}
-
-/* TRAINING SCHEDULES CONTENT */
-.training-schedules-section {
-  display:none;
-  margin-top: 20px;
-  transition: opacity 0.4s ease;
-}
-
-/* your text styles */
-.training-schedules-section h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.8rem;
-  color: #1a1a2e;
-}
-
-.program-list {
-  margin-left: 1rem;
-  padding: 0;
-}
-
-.program-list li {
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin-bottom: 0.4rem;
-  line-height: 1.2;
-  color: #333;
-  white-space: nowrap;
-}
-
-.semester-links {
-  padding-left: 1.2rem;
-  margin-top: 0.3rem;
-}
-
-.semester-links li {
-  font-size: 0.85rem;
-  margin-bottom: 0.25rem;
-}
-
-.semester-links a {
-  color: #1e3a8a;
-  text-decoration: none;
-}
-
-.semester-links a:hover {
-  text-decoration: underline;
-}
-}
 
 
 
@@ -383,96 +182,7 @@ body{
 
 /* ===== HAMBURGER MENU STYLES ===== */
 /* UNUSED LEGACY CSS: old hamburger menu classes are not present in the active header markup. */
-@media not all {
-.hamburger-menu-container {
-    position: relative; 
-    display: flex;
-    align-items: center;
-    height: 100%;
-    margin-left: 30px; 
-}
 
-/* Hide the actual checkbox input */
-#menu-toggle {
-    display: none;
-}
-
-/* Style for the clickable icon (the 3 lines) */
-.hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-    padding: 5px;
-    z-index: 1001; 
-    transition: transform 0.3s ease;
-}
-
-/* Style for each line (span) of the icon */
-.hamburger-icon span {
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: #162b57; 
-    border-radius: 2px;
-    transition: all 0.3s ease;
-}
-
-/* Style for the dropdown menu */
-.hamburger-menu {
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    position: absolute;
-    top: 100%; 
-    right: 0;
-    min-width: 220px;
-    background-color: #fff; 
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
-    display: none;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    border-radius: 8px;
-}
-
-.hamburger-menu li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    padding: 10px 15px;
-    display: block;
-}
-
-.hamburger-menu li a:hover {
-    background-color: #f0f0f0;
-    color: #4a68ff; 
-}
-
-/* Show the menu when the checkbox is checked */
-#menu-toggle:checked ~ .hamburger-menu {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Icon transform into 'X' when open */
-#menu-toggle:checked ~ .hamburger-icon span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-#menu-toggle:checked ~ .hamburger-icon span:nth-child(2) {
-    opacity: 0;
-}
-
-#menu-toggle:checked ~ .hamburger-icon span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-}
-}
 /* ===== END HAMBURGER MENU STYLES ===== */
 
 
@@ -634,21 +344,7 @@ body{
 }
 
 /* Placeholder for contributors without specific photos - Larger and no border */
-/* UNUSED LEGACY CSS: contributor-photo-placeholder is not used by the current contributor modal markup. */
-@media not all {
-.contributor-photo-placeholder {
-    width: 140px;
-    height: 140px;
-    border-radius: 12px; /* Square with slight radius */
-    background-color: #eee; /* Lighter background for placeholder */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Removed border: 3px solid #ccc; */
-    font-size: 60px; /* Larger icon size */
-    color: #aaa; /* Lighter icon color */
-}
-}
+
 
 
 /* Animations */
@@ -780,26 +476,7 @@ body{
 
 
 /* ===== News & Events ===== */
-/* UNUSED LEGACY CSS: news-events/news-container wrapper is not used by the current homepage/events markup. */
-@media not all {
-.news-events {
-    padding: 3rem 5rem;
-    background-color: #fff;
-}
 
-.news-events h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #222;
-}
-
-.news-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-}
 
 .news-card {
     background: #fff;
@@ -938,149 +615,65 @@ body{
 }
 
 .notice-list {
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .notice-item {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 18px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.notice-item:last-child {
+    align-items: center;
+    padding: 10px 16px;
+    background: #fdfdfd;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    transition: all 0.3s ease;
     margin-bottom: 0;
-    border-bottom: none;
 }
 
-.notice-item .bullet {
-    width: 10px;
-    height: 10px;
-    background: #3B82F6;
-    border-radius: 50%;
-    margin-right: 15px;
-    margin-top: 6px;
+.notice-item:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border-color: #3b82f6;
+    background: #ffffff;
 }
 
-.notice-item p {
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.5;
+.notice-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.notice-text a {
+    font-size: 0.9rem;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+    text-align: left;
+}
+
+.notice-item:hover .notice-text a {
+    color: #3b82f6;
+    text-decoration: underline;
 }
 
 /* part for the time table and stuffs */
 /* DROPDOWN SECTION */
-/* UNUSED LEGACY CSS: old notice dropdown styles are not used by active notice markup. */
-@media not all {
-.dropdown {
-    cursor: pointer;
-}
 
-.dropdown-toggle {
-    margin: 0;
-    font-size: 1.05rem;
-    font-weight: 500;
-    color: #1d4ed8;
-}
-
-.dropdown-toggle:hover {
-    text-decoration: underline;
-}
-
-/* Hidden content */
-.dropdown-content {
-    display: none;
-    margin-left: 30px;
-    margin-top: 15px;
-    background: #ffffff;
-    padding: 20px;
-    border-left: 3px solid #4F7DF3;
-    border-radius: 6px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-}
-
-.dropdown-content h3 {
-    margin-bottom: 10px;
-    color: #422;
-}
-
-.dropdown-content ul {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.dropdown-content li a {
-    font-weight: 600;
-    color: #2345d8;
-    text-decoration: none;
-}
-
-.dropdown-content li a:hover {
-    text-decoration: underline;
-}
-}
 
 
 /* Training & Placement Section */
 /* UNUSED LEGACY CSS: old Training & Placement section classes are not referenced in active pages. */
-@media not all {
-.tp-section {
-    width: 90%;
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 20px 0;
-}
 
-.tp-heading {
-    background: linear-gradient(90deg, #3B82F6, #9333EA);
-    color: #fff;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.tp-list {
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-}
-
-.tp-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 18px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.tp-item:last-child {
-    margin-bottom: 0;
-    border-bottom: none;
-}
-
-.tp-item .bullet {
-    width: 10px;
-    height: 10px;
-    background: #3B82F6; /* blue bullet for placement vibe */
-    border-radius: 50%;
-    margin-right: 15px;
-    margin-top: 6px;
-}
-
-.tp-item p {
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.5;
-    font-weight: 400;
-}
-}
 
 
 /*back to top option */
@@ -1961,6 +1554,27 @@ body{
 
 
 
+.header-top-bar {
+    width: 100%;
+    background-color: #0b132b; /* Dark navy blue background */
+    color: rgba(255, 255, 255, 0.7); /* Slightly muted white text */
+    text-align: center;
+    font-size: 13.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 6px 15px;
+    position: relative;
+    z-index: 100000;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .header-top-bar {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
+
 /* new header upadted */
 .pro-header{
 
@@ -1975,6 +1589,7 @@ body{
     overflow-x: clip;
     overflow-y: visible;  /* allows elements to overflow for decorative purposes*/
 
+    border-top: 5px solid #f2b300; /* Gold top border matching the slanted divider and titles */
     border-bottom: 5px solid rgba(255,255,255,0.8);
 
     isolation: isolate; /* creates a new stacking context to prevent z-index issues with dropdowns */
@@ -2147,17 +1762,98 @@ body{
     text-decoration: underline;
 }
 
-
-
-/* UNUSED LEGACY CSS: contact-icon is not referenced by current header/footer markup. */
-@media not all {
-.contact-icon{
-
-    width: 28px;
-
-    object-fit: contain;
+@media (max-width: 1200px) {
+    .right-image-dep-logo {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
+
+@media (max-width: 1024px) {
+    .pro-header {
+        height: auto;
+        padding: 20px 0;
+    }
+    .header-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .right-image-dep-logo {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100px;
+    }
+    .department-name h2 {
+        font-size: 32px;
+        width: auto;
+    }
+    .title-section {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .logo-box {
+        width: 140px;
+    }
+    .logo {
+        padding-right: 15px;
+        margin-left: 0;
+    }
 }
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+    .left-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .logo-box {
+        width: 80px;
+    }
+    .logo {
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .title-section {
+        margin-left: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+    .college-name h1 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .department-name h2 {
+        font-size: 24px;
+        width: auto;
+        text-align: center;
+    }
+    .address h3 {
+        font-size: 13px;
+        text-align: center;
+    }
+    .contact-row {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 15px;
+    }
+    .contact-item a {
+        font-size: 14px;
+    }
+    .right-section-dep-logo {
+        display: none;
+    }
+}
+
+
+
+
 
 .divider{
 

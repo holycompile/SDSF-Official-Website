@@ -124,23 +124,7 @@
             
     <script src="events.js"></script>
 
-    <!--Script fot the Palcement so that it opens here -->
-                <script>
-                document.addEventListener("click", (e) => {
-                    const btn = e.target.closest(".ts-btn");
-                    if (!btn) return;
 
-                    e.preventDefault();
-
-                    const wrapper = btn.closest(".ts-wrapper");
-                    wrapper.classList.toggle("open");
-
-                    // close other dropdowns
-                    document.querySelectorAll(".ts-wrapper").forEach(w => {
-                        if (w !== wrapper) w.classList.remove("open");
-                    });
-                });
-                </script>
 
     <?php include("footer.php"); ?>
 </body>

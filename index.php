@@ -18,7 +18,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -39,21 +39,14 @@
         <!-- popup section: this block controls the admission poster overlay  -->
   
   <!-- ===== Header / Navbar ===== -->
-          <!--  <div id="header"></div>
-            <script>
-            fetch("header.html")
-                .then(response => response.text())
-                .then(data => {
-                document.getElementById("header").innerHTML = data;
-                });
-            </script>   -->
+
         <?php include("header.php"); ?>
 
  
   <!-- ===== Hero Section (Image Slider) ===== -->
 <section class="hero-slider">
   <div class="slide fade">
-    <img src="../photoes/indexhero4.jpg" alt="Slide 1">
+    <img src="photoes/indexhero4.jpg" alt="Slide 1">
     <div class="hero-text">
       <p class="tagline">Empowering Through Analytics</p>
           <h1 class="code-colored">
@@ -67,7 +60,7 @@
   </div>
 
   <div class="slide fade">
-    <img src="../photoes/indexhero1.jpg" alt="Slide 2">
+    <img src="photoes/indexhero1.jpg" alt="Slide 2">
     <div class="hero-text">
       <p class="tagline">Decode. Analyze. Predict.</p>
       <h1 class="code-colored">
@@ -80,7 +73,7 @@
   </div>
 
   <div class="slide fade">
-    <img src="../photoes/indexhero0.jpg" alt="Slide 3">
+    <img src="photoes/indexhero0.jpg" alt="Slide 3">
     <div class="hero-text">
       <p class="tagline">Data is Power</p>
        <h1 class="code-colored">
@@ -92,7 +85,7 @@
   </div>
 
   <div class="slide fade">
-    <img src="../photoes/indexhero2.jpg" alt="Slide 4">
+    <img src="photoes/indexhero2.jpg" alt="Slide 4">
     <div class="hero-text">
       <p class="tagline">Learning Beyond Limits</p>
        <h1 class="code-colored">
@@ -103,7 +96,7 @@
     </div>
   </div>
   <div class="slide fade">
-    <img src="../photoes/indexhero3.jpg" alt="Slide 4">
+    <img src="photoes/indexhero3.jpg" alt="Slide 4">
     <div class="hero-text">
       <p class="tagline">Dream. Create. Inspire.</p>
        <h1 class="code-colored">
@@ -167,14 +160,7 @@
 
 
 
-<!--<div class="indian-mathematics-center">
-  <a 
-     href="https://dsf.dauniv.ac.in/notices/IKS-Centre.pdf" 
-     target="_blank" 
-     class="research-link">
-      Research Centre of Ancient Indian Mathematics
-  </a>
-</div>-->
+
 
 
   <!-- ===== Notice and News Section ===== -->
@@ -182,52 +168,31 @@
                   <h2 class="notice-heading">Latest News & Notices</h2>
 
                   <div class="notice-list">
-
                       
-
-                        
+                        <!-- Item 1 -->
                         <div class="notice-item">
-                          <span class="bullet"></span>
-                          <p>
-                              <a href="Second Round Admission of M.Tech. (Data Science) M.Tech. (Data Science) For Working Executive Batch-(2026-2028).pdf">Second Round Admission of M.Tech. (Data Science)/M.Tech. (Data Science) For Working Executive Batch-(2026-2028)</a>
-                          </p>
-                         </div>
-                  
-                        <div class="notice-item">
-                          <span class="bullet"></span>
-                          <p>
-                              <a href="Second Round Admission of M.Sc. (Data Science and Analytics).pdf">Second Round Admission of M.Sc. (Data Science and Analytics) at School of Data Science and Forecasting</a>
-                          </p>
-                         </div>
-
-
-                         <div class="notice-item">
-                          <span class="bullet"></span>
-                          <p>
-                              <a href="admission.php">Admission 2026</a>
-                          </p>
+                          <div class="notice-text">
+                              <a href="Second Round Admission of M.Tech. (Data Science) M.Tech. (Data Science) For Working Executive Batch-(2026-2028).pdf" target="_blank">● Second Round Admission of M.Tech. (Data Science)/M.Tech. (Data Science) For Working Executive Batch-(2026-2028)</a>
+                          </div>
                         </div>
-                    
+                  
+                        <!-- Item 2 -->
+                        <div class="notice-item">
+                          <div class="notice-text">
+                              <a href="Second Round Admission of M.Sc. (Data Science and Analytics).pdf" target="_blank">● Second Round Admission of M.Sc. (Data Science and Analytics) at School of Data Science and Forecasting</a>
+                          </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="notice-item">
+                          <div class="notice-text">
+                              <a href="admission.php">● Admission 2026</a>
+                          </div>
+                        </div>
 
                       
 
-                      <!--
-                              Hidden content
-                              <div class="dropdown-content">
-                                  <h3>1. M.Tech (Dual Degree) – AI & DS</h3>
-                                  <ul>
-                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-3%20Sem.pdf">Third Semester (2024–29)</a></li>
-                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-5%20Sem.pdf">Fifth Semester (2023–28)</a></li>
-                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-7%20Sem.pdf">Sevent Semester (2022–27)</a></li>
-                                      <li><a href="https://dsf.dauniv.ac.in/notices/Class%20Time%20table%20-%20MT-AIDS-9%20Sem.pdf">Ninth Semester (2021–26)</a></li>
-                                  </ul>
 
-                                  <h3>2. M.Tech (Data Science) / BIG DATA ANALYTICS</h3>
-                                  <ul>
-                                          <li><a href="https://dsf.dauniv.ac.in/notices/Time-Table-M.TECH.pdf">Firts Semester (2025–27)</a></li>
-                                      </ul>
-                                  </div>
-                                -->
                       
 
 

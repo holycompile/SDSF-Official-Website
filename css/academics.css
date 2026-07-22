@@ -110,14 +110,110 @@
     font-weight: 800;
     margin-bottom: 20px;
 }
-.time-table-list{
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+.time-table-list {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #eaeaea;
 }
 
+.timetable-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+    background: #fdfdfd;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    gap: 20px;
+}
 
+.timetable-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    border-color: #3b82f6;
+    background: #ffffff;
+}
+
+.timetable-icon {
+    font-size: 2rem;
+    color: #ff4757; /* PDF red color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffebee;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.timetable-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.timetable-details h3 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.timetable-meta {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    font-weight: 500;
+    text-align: left;
+}
+
+.timetable-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    white-space: nowrap;
+}
+
+.timetable-btn:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+.timetable-btn i {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .timetable-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 20px;
+    }
+    .timetable-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
 
 /* ===== ACADEMIC OPTIONS SECTION===== */
 .academic-options-section {

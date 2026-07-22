@@ -17,16 +17,7 @@
 
 <body class="about-page">
 
-   <!-- <div id="header"></div>
 
-    <script>
-        // Fetches and injects the header content from header.html
-        fetch("../header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header").innerHTML = data;
-            });
-    </script> -->
     <?php include("header.php") ?>
 
     <main class="page-content">
@@ -112,83 +103,13 @@
             
             <hr class="section-divider">
             
-           <!-- <section id="developers-section" class="developers-section">
-                <h2 class="developers-title">Meet the Innovators</h2>
-                <p class="developers-intro">
-                    The success of this site is powered by our core team's commitment and innovation.
-                </p>
 
-                <div class="contributor-list-section">
-
-                    <h3>⭐ Top Contributors</h3>
-
-                    
-
-                    <div class="top-contributors-grid">
-                        <div class="contributor-card top-tier">
-                            <div class="contributor-photo-center">
-                                <img src="../photoes/contributor_top2.jpeg" alt="Joyobrata Das" class="contributor-photo">
-                            </div>
-                            <h4 class="contributor-name">Joyobrata Das</h4>
-                            <div class="links">
-                                <a href="https://www.linkedin.com/in/joyobrata-das-53467b39b/" target="_blank" class="link-linkedin">LinkedIn</a> |
-                                <a href="https://github.com/holycompile" target="_blank" class="link-github">GitHub</a>
-                            </div>
-                        </div>
-
-
-                    <div class="contributor-card top-tier">
-                            <div class="contributor-photo-center">
-                                <img src="../photoes/contributor_top1.jpg" alt="Alivia Hossain" class="contributor-photo">
-                            </div>
-                            <h4 class="contributor-name">Alivia Hossain</h4>
-                            <div class="links">
-                                <a href="https://www.linkedin.com/in/alivia-hossain-513a3a365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="link-linkedin">LinkedIn</a> |
-                                <a href="https://github.com/aliviahossain" target="_blank" class="link-github">GitHub</a>
-                            </div>
-                    </div>
-
-                        
-                    </div>
-                    
-                    <h3>🤝 Team Members</h3>
-
-                    <div class="other-contributors-row">
-                        <div class="contributor-name other-tier">Akshita Mishra</div>
-                        <div class="contributor-name other-tier">Harshita Basantani</div>
-                        <div class="contributor-name other-tier">Rohit Chaudhary</div>
-                        <div class="contributor-name other-tier">Subhi Tukaria</div>
-                        <div class="contributor-name other-tier">Akshara Yadav</div>
-                        <div class="contributor-name other-tier">Akriti Tiwari</div>
-                    </div>
-                </div>
-            </section>
-        
-        </div> <script>
-            // All previous accordion JavaScript is now removed.
-        </script> -->
 
     </main>
 
     <?php include("footer.php"); ?>
 
-    <!--Script fot the Palcement so that it opens here -->
-                <script>
-                document.addEventListener("click", (e) => {
-                    const btn = e.target.closest(".ts-btn");
-                    if (!btn) return;
 
-                    e.preventDefault();
-
-                    const wrapper = btn.closest(".ts-wrapper");
-                    wrapper.classList.toggle("open");
-
-                    // close other dropdowns
-                    document.querySelectorAll(".ts-wrapper").forEach(w => {
-                        if (w !== wrapper) w.classList.remove("open");
-                    });
-                });
-                </script>
 
 </body>
 </html>

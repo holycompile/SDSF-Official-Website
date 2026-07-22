@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
 
     <link rel="stylesheet" href="/css/academics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <!-- font styles importing -->
@@ -63,14 +64,7 @@
                     </ul>
                 </section>
 
-              <!--  <section id="brochure-section" class="ordinances-box" style="display:none;">
-                    <h2 class="section-title">Information Brochure</h2>
-                    <ul class="styled-list">
-                        <li><strong>Information Brochure:</strong>
-                            <a href="https://dsf.dauniv.ac.in/notices/InformationBrochure.pdf" target="_blank">View Full PDF</a>
-                        </li>
-                    </ul>
-                </section> -->
+
 
                 <!--Dont know why this part not working will be resolved later -->
                 <section id="calendar-section" class="ordinances-box" style="display:none;">
@@ -83,281 +77,7 @@
                     </ul>
                 </section>
 
-            <!--
-                <section id="calendar-section-custom" class="ordinances-box calendar-panel">
 
-                    <div class="calendar-container">
-                        <div class="calendar-header">
-                            <h2>ACADEMIC CALENDAR 2025-2026</h2>
-                            <p>Devi Ahilya Vishwavidyalaya, Indore (For I, III, V, VII, IX, II, IV, VI, VIII, X Semesters)</p>
-                        </div>
-
-                        <table class="term-summary">
-                            <tr>
-                                <th colspan="3">Term & Duration Summary</th>
-                            </tr>
-                            <tr>
-                                <th>Term</th>
-                                <th>Duration (Student Break/Vacation)</th>
-                                <th>Source Date</th>
-                            </tr>
-                            <tr>
-                                <td>Odd Semester Break</td>
-                                <td>16 December 2025 to 31 December 2025</td>
-                                <td>16 Days</td>
-                            </tr>
-                            <tr>
-                                <td>Even Semester Break/Vacation</td>
-                                <td>16 May 2026 to 30 June 2026</td>
-                                <td>46 Days</td>
-                            </tr>
-                        </table>
-
-                        <div class="calendar-grid">
-                            <div class="grid-header">MONTH</div>
-                            <div class="grid-header">DATES</div>
-                            <div class="grid-header">CALENDAR DATES / ACADEMIC EVENTS</div>
-                            <div class="grid-header">PUBLIC HOLIDAYS (India/Madhya Pradesh)</div>
-
-                            <div class="grid-month-cell">AUGUST<br>2025</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">27</div><div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell prev-next-month">31</div><div class="date-cell unlisted">1</div><div class="date-cell weekend">2</div>
-                                <div class="date-cell weekend">3</div><div class="date-cell unlisted">4</div><div class="date-cell unlisted">5</div><div class="date-cell unlisted">6</div><div class="date-cell unlisted">7</div><div class="date-cell unlisted">8</div><div class="date-cell weekend public-holiday">9</div>
-                                <div class="date-cell weekend">10</div><div class="date-cell unlisted">11</div><div class="date-cell unlisted">12</div><div class="date-cell unlisted">13</div><div class="date-cell unlisted">14</div><div class="date-cell public-holiday">15</div><div class="date-cell weekend public-holiday">16</div>
-                                <div class="date-cell weekend">17</div><div class="date-cell unlisted">18</div><div class="date-cell unlisted">19</div><div class="date-cell prof-dev">20</div><div class="date-cell prof-dev">21</div><div class="date-cell prof-dev">22</div><div class="date-cell weekend prof-dev">23</div>
-                                <div class="date-cell weekend prof-dev">24</div><div class="date-cell prof-dev">25</div><div class="date-cell unlisted">26</div><div class="date-cell unlisted">27</div><div class="date-cell unlisted">28</div><div class="date-cell unlisted">29</div><div class="date-cell weekend">30</div>
-                                <div class="date-cell weekend">31</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div><div class="date-cell prev-next-month">4</div><div class="date-cell prev-next-month">5</div><div class="date-cell prev-next-month">6</div>
-                            </div>
-                            <div class="calendar-events">
-                                1 Aug: Start date of Admission/Registration<br>
-                                20-25 Aug: Class Test I<br>
-                                31 Aug: End date of Admission/Registration
-                            </div>
-                            <div class="public-holidays">
-                                9 Aug: Raksha Bandhan<br>
-                                15 Aug: Independence Day<br>
-                                16 Aug: Janmashtami
-                            </div>
-
-                            <div class="grid-month-cell">SEPTEMBER<br>2025</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">31</div><div class="date-cell unlisted">1</div><div class="date-cell unlisted">2</div><div class="date-cell unlisted">3</div><div class="date-cell unlisted">4</div><div class="date-cell public-holiday">5</div><div class="date-cell weekend">6</div>
-                                <div class="date-cell weekend">7</div><div class="date-cell unlisted">8</div><div class="date-cell unlisted">9</div><div class="date-cell unlisted">10</div><div class="date-cell unlisted">11</div><div class="date-cell unlisted">12</div><div class="date-cell weekend">13</div>
-                                <div class="date-cell weekend">14</div><div class="date-cell unlisted">15</div><div class="date-cell prof-dev">16</div><div class="date-cell prof-dev">17</div><div class="date-cell prof-dev">18</div><div class="date-cell unlisted">19</div><div class="date-cell weekend">20</div>
-                                <div class="date-cell weekend">21</div><div class="date-cell unlisted">22</div><div class="date-cell unlisted">23</div><div class="date-cell unlisted">24</div><div class="date-cell unlisted">25</div><div class="date-cell unlisted">26</div><div class="date-cell weekend">27</div>
-                                <div class="date-cell weekend">28</div><div class="date-cell unlisted">29</div><div class="date-cell unlisted">30</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div><div class="date-cell prev-next-month">4</div>
-                            </div>
-                            <div class="calendar-events">
-                                1-7 Sep: Induction Program for I Semester Students<br>
-                                8 Sep: Start Date of Semester Classes<br>
-                                16-18 Sep: NCC/NSS/Youth Festival
-                            </div>
-                            <div class="public-holidays">
-                                5 Sep: Eid e Milad
-                            </div>
-
-                            <div class="grid-month-cell">OCTOBER<br>2025</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell unlisted">1</div><div class="date-cell public-holiday">2</div><div class="date-cell unlisted">3</div><div class="date-cell weekend">4</div>
-                                <div class="date-cell weekend">5</div><div class="date-cell prof-dev">6</div><div class="date-cell prof-dev">7</div><div class="date-cell prof-dev">8</div><div class="date-cell prof-dev">9</div><div class="date-cell prof-dev">10</div><div class="date-cell weekend prof-dev">11</div>
-                                <div class="date-cell weekend">12</div><div class="date-cell unlisted">13</div><div class="date-cell unlisted">14</div><div class="date-cell unlisted">15</div><div class="date-cell unlisted">16</div><div class="date-cell unlisted">17</div><div class="date-cell weekend term-holiday public-holiday">18</div>
-                                <div class="date-cell weekend term-holiday">19</div><div class="date-cell term-holiday public-holiday">20</div><div class="date-cell term-holiday">21</div><div class="date-cell term-holiday">22</div><div class="date-cell term-holiday">23</div><div class="date-cell unlisted">24</div><div class="date-cell weekend">25</div>
-                                <div class="date-cell weekend">26</div><div class="date-cell unlisted">27</div><div class="date-cell unlisted">28</div><div class="date-cell unlisted">29</div><div class="date-cell unlisted">30</div><div class="date-cell unlisted">31</div><div class="date-cell prev-next-month">1</div>
-                            </div>
-                            <div class="calendar-events">
-                                6-11 Oct: Class Test II<br>
-                                16 Oct: Display of Result Class Test II<br>
-                                18-23 Oct: Diwali Vacations<br>
-                                25 Oct: Display of Result Class Test I
-                            </div>
-                            <div class="public-holidays">
-                                2 Oct: Gandhi Jayanti, Vijaya Dashami<br>
-                                7 Oct: Maharishi Valmiki Jayanti<br>
-                                20 Oct: Diwali (Overlap with Vacation)
-                            </div>
-                            <div class="grid-month-cell">NOVEMBER<br>2025</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">26</div><div class="date-cell prev-next-month">27</div><div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell prev-next-month">31</div><div class="date-cell weekend">1</div>
-                                <div class="date-cell weekend">2</div><div class="date-cell unlisted">3</div><div class="date-cell unlisted">4</div><div class="date-cell public-holiday">5</div><div class="date-cell unlisted">6</div><div class="date-cell unlisted">7</div><div class="date-cell weekend">8</div>
-                                <div class="date-cell weekend">9</div><div class="date-cell prof-dev">10</div><div class="date-cell prof-dev">11</div><div class="date-cell prof-dev">12</div><div class="date-cell prof-dev">13</div><div class="date-cell prof-dev">14</div><div class="date-cell weekend exam-day">15</div>
-                                <div class="date-cell weekend exam-day">16</div><div class="date-cell exam-day">17</div><div class="date-cell exam-day">18</div><div class="date-cell exam-day">19</div><div class="date-cell unlisted">20</div><div class="date-cell unlisted">21</div><div class="date-cell weekend">22</div>
-                                <div class="date-cell weekend">23</div><div class="date-cell unlisted">24</div><div class="date-cell exam-day">25</div><div class="date-cell exam-day">26</div><div class="date-cell exam-day">27</div><div class="date-cell exam-day">28</div><div class="date-cell weekend exam-day">29</div>
-                                <div class="date-cell weekend exam-day">30</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div><div class="date-cell prev-next-month">4</div><div class="date-cell prev-next-month">5</div>
-                            </div>
-                            <div class="calendar-events">
-                                10-14 Nov: Class Test III<br>
-                                15-24 Nov: Preparation Leave for students for Examination<br>
-                                20 Nov: Display of Result Class Test III<br>
-                                25 Nov - 15 Dec: End Semester Examination (Including Practical)
-                            </div>
-                            <div class="public-holidays">
-                                5 Nov: Guru Nanak Jayanti
-                            </div>
-
-                            <div class="grid-month-cell">DECEMBER<br>2025</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">30</div><div class="date-cell exam-day">1</div><div class="date-cell exam-day">2</div><div class="date-cell exam-day">3</div><div class="date-cell exam-day">4</div><div class="date-cell exam-day">5</div><div class="date-cell weekend unlisted">6</div>
-                                <div class="date-cell weekend exam-day">7</div><div class="date-cell exam-day">8</div><div class="date-cell exam-day">9</div><div class="date-cell exam-day">10</div><div class="date-cell exam-day">11</div><div class="date-cell exam-day">12</div><div class="date-cell weekend exam-day">13</div>
-                                <div class="date-cell weekend exam-day">14</div><div class="date-cell exam-day">15</div><div class="date-cell term-holiday">16</div><div class="date-cell term-holiday">17</div><div class="date-cell term-holiday">18</div><div class="date-cell term-holiday">19</div><div class="date-cell weekend term-holiday">20</div>
-                                <div class="date-cell weekend term-holiday">21</div><div class="date-cell term-holiday">22</div><div class="date-cell term-holiday">23</div><div class="date-cell prof-dev term-holiday">24</div><div class="date-cell prof-dev term-holiday public-holiday">25</div><div class="date-cell prof-dev term-holiday">26</div><div class="date-cell weekend prof-dev term-holiday">27</div>
-                                <div class="date-cell weekend prof-dev term-holiday">28</div><div class="date-cell prof-dev term-holiday">29</div><div class="date-cell term-holiday">30</div><div class="date-cell term-holiday">31</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div>
-                            </div>
-                            <div class="calendar-events">
-                                1-15 Dec: End Semester Examination continues<br>
-                                6 Dec: Display of Result Class Test II<br>
-                                16-31 Dec: Semester Break/Vacation (Students)<br>
-                                22 Dec: Declaration of Final Result<br>
-                                24-29 Dec: Class Test III (CUET/JEE Semesters)<br>
-                                30 Dec - 5 Jan 2026: Preparation Leave for students for Examination (Even Semesters)
-                            </div>
-                            <div class="public-holidays">
-                                25 Dec: Christmas Day (Overlap with Vacation)
-                            </div>
-
-                            <div class="grid-month-cell">JANUARY<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell prev-next-month">31</div><div class="date-cell term-holiday">1</div><div class="date-cell unlisted">2</div><div class="date-cell weekend unlisted">3</div>
-                                <div class="date-cell weekend unlisted">4</div><div class="date-cell unlisted">5</div><div class="date-cell unlisted">6</div><div class="date-cell unlisted">7</div><div class="date-cell unlisted">8</div><div class="date-cell unlisted">9</div><div class="date-cell weekend">10</div>
-                                <div class="date-cell weekend">11</div><div class="date-cell unlisted">12</div><div class="date-cell unlisted">13</div><div class="date-cell unlisted">14</div><div class="date-cell unlisted">15</div><div class="date-cell unlisted">16</div><div class="date-cell weekend">17</div>
-                                <div class="date-cell weekend">18</div><div class="date-cell unlisted">19</div><div class="date-cell unlisted">20</div><div class="date-cell unlisted">21</div><div class="date-cell unlisted">22</div><div class="date-cell unlisted">23</div><div class="date-cell weekend">24</div>
-                                <div class="date-cell weekend public-holiday">25</div><div class="date-cell public-holiday">26</div><div class="date-cell unlisted">27</div><div class="date-cell unlisted">28</div><div class="date-cell unlisted">29</div><div class="date-cell unlisted">30</div><div class="date-cell weekend">31</div>
-                            </div>
-                            <div class="calendar-events">
-                                1 Jan: End of Semester Break<br>
-                                2 Jan: Start date of Admission/Registration (Even Semesters)<br>
-                                3 Jan: Display of Result Class Test III<br>
-                                4 Jan: End date of Admission/Registration (Even Semesters)<br>
-                                5 Jan: Start Date of Even Semester Classes
-                            </div>
-                            <div class="public-holidays">
-                                26 Jan: Republic Day
-                            </div>
-                            <div class="grid-month-cell">FEBRUARY<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell weekend">1</div><div class="date-cell unlisted">2</div><div class="date-cell unlisted">3</div><div class="date-cell unlisted">4</div><div class="date-cell unlisted">5</div><div class="date-cell unlisted">6</div><div class="date-cell weekend">7</div>
-                                <div class="date-cell weekend">8</div><div class="date-cell unlisted">9</div><div class="date-cell unlisted">10</div><div class="date-cell prof-dev">11</div><div class="date-cell prof-dev public-holiday">12</div><div class="date-cell prof-dev">13</div><div class="date-cell weekend prof-dev">14</div>
-                                <div class="date-cell weekend">15</div><div class="date-cell prof-dev">16</div><div class="date-cell prof-dev">17</div><div class="date-cell prof-dev">18</div><div class="date-cell prof-dev">19</div><div class="date-cell prof-dev">20</div><div class="date-cell weekend">21</div>
-                                <div class="date-cell weekend">22</div><div class="date-cell unlisted">23</div><div class="date-cell unlisted">24</div><div class="date-cell unlisted">25</div><div class="date-cell public-holiday">26</div><div class="date-cell unlisted">27</div><div class="date-cell weekend">28</div>
-                            </div>
-                            <div class="calendar-events">
-                                11-15 Feb: Class Test I<br>
-                                16-20 Feb: Sports/Cultural/Technical Activities (SFOORTI)<br>
-                                22 Feb: Display of Result Class Test I
-                            </div>
-                            <div class="public-holidays">
-                                12 Feb: Guru Ravidas Jayanti<br>
-                                26 Feb: Maha Shivaratri
-                            </div>
-
-                            <div class="grid-month-cell">MARCH<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell weekend">1</div><div class="date-cell unlisted">2</div><div class="date-cell unlisted">3</div><div class="date-cell unlisted">4</div><div class="date-cell unlisted">5</div><div class="date-cell unlisted">6</div><div class="date-cell weekend">7</div>
-                                <div class="date-cell weekend">8</div><div class="date-cell unlisted">9</div><div class="date-cell unlisted">10</div><div class="date-cell unlisted">11</div><div class="date-cell unlisted">12</div><div class="date-cell public-holiday">13</div><div class="date-cell weekend public-holiday">14</div>
-                                <div class="date-cell weekend">15</div><div class="date-cell prof-dev">16</div><div class="date-cell prof-dev">17</div><div class="date-cell prof-dev">18</div><div class="date-cell prof-dev">19</div><div class="date-cell prof-dev">20</div><div class="date-cell weekend prof-dev">21</div>
-                                <div class="date-cell weekend">22</div><div class="date-cell unlisted">23</div><div class="date-cell unlisted">24</div><div class="date-cell unlisted">25</div><div class="date-cell unlisted">26</div><div class="date-cell unlisted">27</div><div class="date-cell weekend">28</div>
-                                <div class="date-cell weekend">29</div><div class="date-cell unlisted">30</div><div class="date-cell public-holiday">31</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div>
-                            </div>
-                            <div class="calendar-events">
-                                17-21 Mar: Class Test II<br>
-                                28 Mar: Display of Result Class Test II
-                            </div>
-                            <div class="public-holidays">
-                                14 Mar: Holi<br>
-                                31 Mar: Idul Fitr
-                            </div>
-
-                            <div class="grid-month-cell">APRIL<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell prev-next-month">31</div><div class="date-cell unlisted">1</div><div class="date-cell unlisted">2</div><div class="date-cell unlisted">3</div><div class="date-cell weekend">4</div>
-                                <div class="date-cell weekend">5</div><div class="date-cell weekend public-holiday">6</div><div class="date-cell unlisted">7</div><div class="date-cell unlisted">8</div><div class="date-cell public-holiday">9</div><div class="date-cell unlisted">10</div><div class="date-cell weekend">11</div>
-                                <div class="date-cell weekend">12</div><div class="date-cell unlisted">13</div><div class="date-cell prof-dev public-holiday">14</div><div class="date-cell prof-dev">15</div><div class="date-cell prof-dev">16</div><div class="date-cell prof-dev public-holiday">17</div><div class="date-cell weekend unlisted">18</div>
-                                <div class="date-cell weekend exam-day">19</div><div class="date-cell exam-day">20</div><div class="date-cell exam-day">21</div><div class="date-cell exam-day">22</div><div class="date-cell exam-day">23</div><div class="date-cell exam-day">24</div><div class="date-cell weekend exam-day">25</div>
-                                <div class="date-cell weekend exam-day">26</div><div class="date-cell exam-day">27</div><div class="date-cell exam-day">28</div><div class="date-cell exam-day public-holiday">29</div><div class="date-cell exam-day">30</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div>
-                            </div>
-                            <div class="calendar-events">
-                                14-18 Apr: Class Test III<br>
-                                19-25 Apr: Preparation Leave for students for Examination<br>
-                                25 Apr: Display of Result Class Test III<br>
-                                26 Apr - 15 May: End Semester Examination (Including Practical)
-                            </div>
-                            <div class="public-holidays">
-                                6 Apr: Ram Navami<br>
-                                9 Apr: Mahavir Jayanti (adjusted from 10 Apr)<br>
-                                14 Apr: Dr Ambedkar Jayanti (Overlap with Class Test)<br>
-                                17 Apr: Good Friday (adjusted from 18 Apr)<br>
-                                29 Apr: Maharshi Parasuram Jayanti (Overlap with Exam)
-                            </div>
-                            <div class="grid-month-cell">MAY<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">26</div><div class="date-cell prev-next-month">27</div><div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell exam-day">1</div><div class="date-cell weekend exam-day">2</div>
-                                <div class="date-cell weekend exam-day">3</div><div class="date-cell exam-day">4</div><div class="date-cell exam-day">5</div><div class="date-cell exam-day">6</div><div class="date-cell exam-day">7</div><div class="date-cell exam-day public-holiday">8</div><div class="date-cell weekend exam-day">9</div>
-                                <div class="date-cell weekend exam-day">10</div><div class="date-cell exam-day">11</div><div class="date-cell exam-day public-holiday">12</div><div class="date-cell exam-day">13</div><div class="date-cell exam-day">14</div><div class="date-cell exam-day">15</div><div class="date-cell weekend term-holiday">16</div>
-                                <div class="date-cell weekend term-holiday">17</div><div class="date-cell term-holiday">18</div><div class="date-cell term-holiday">19</div><div class="date-cell term-holiday">20</div><div class="date-cell term-holiday">21</div><div class="date-cell term-holiday">22</div><div class="date-cell weekend term-holiday">23</div>
-                                <div class="date-cell weekend term-holiday">24</div><div class="date-cell term-holiday">25</div><div class="date-cell term-holiday">26</div><div class="date-cell term-holiday">27</div><div class="date-cell term-holiday">28</div><div class="date-cell term-holiday">29</div><div class="date-cell weekend term-holiday">30</div>
-                                <div class="date-cell weekend term-holiday">31</div>
-                            </div>
-                            <div class="calendar-events">
-                                1-15 May: End Semester Examination continues<br>
-                                16 May - 30 Jun: Semester Break/Vacation (Students & Teachers)<br>
-                                22 May: Declaration of Final Result
-                            </div>
-                            <div class="public-holidays">
-                                8 May: Buddha Purnima (adjusted from 12 May)<br>
-                                12 May: Buddha Purnima (Overlap with Exam)
-                            </div>
-
-                            <div class="grid-month-cell">JUNE<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">31</div><div class="date-cell term-holiday">1</div><div class="date-cell term-holiday">2</div><div class="date-cell term-holiday">3</div><div class="date-cell term-holiday">4</div><div class="date-cell term-holiday">5</div><div class="date-cell weekend term-holiday public-holiday">6</div>
-                                <div class="date-cell weekend term-holiday">7</div><div class="date-cell term-holiday">8</div><div class="date-cell term-holiday">9</div><div class="date-cell term-holiday">10</div><div class="date-cell term-holiday">11</div><div class="date-cell term-holiday">12</div><div class="date-cell weekend term-holiday">13</div>
-                                <div class="date-cell weekend term-holiday">14</div><div class="date-cell term-holiday">15</div><div class="date-cell term-holiday">16</div><div class="date-cell term-holiday">17</div><div class="date-cell term-holiday">18</div><div class="date-cell term-holiday">19</div><div class="date-cell weekend term-holiday">20</div>
-                                <div class="date-cell weekend term-holiday">21</div><div class="date-cell term-holiday">22</div><div class="date-cell term-holiday">23</div><div class="date-cell term-holiday">24</div><div class="date-cell term-holiday">25</div><div class="date-cell term-holiday">26</div><div class="date-cell weekend term-holiday">27</div>
-                                <div class="date-cell weekend term-holiday">28</div><div class="date-cell term-holiday">29</div><div class="date-cell term-holiday">30</div><div class="date-cell prev-next-month">1</div><div class="date-cell prev-next-month">2</div><div class="date-cell prev-next-month">3</div>
-                            </div>
-                            <div class="calendar-events">
-                                1-30 Jun: Semester Break/Vacation (Students & Teachers) continues<br>
-                                30 Jun: End of Even Semester Break
-                            </div>
-                            <div class="public-holidays">
-                                6 Jun: Bakrid / Eid al Adha (Overlap with Vacation)
-                            </div>
-
-                            <div class="grid-month-cell">JULY<br>2026</div>
-                            <div class="date-grid">
-                                <div class="date-header">S</div><div class="date-header">M</div><div class="date-header">T</div><div class="date-header">W</div><div class="date-header">T</div><div class="date-header">F</div><div class="date-header">S</div>
-                                <div class="date-cell prev-next-month">28</div><div class="date-cell prev-next-month">29</div><div class="date-cell prev-next-month">30</div><div class="date-cell unlisted">1</div><div class="date-cell unlisted">2</div><div class="date-cell unlisted">3</div><div class="date-cell weekend">4</div>
-                                <div class="date-cell weekend">5</div><div class="date-cell public-holiday">6</div><div class="date-cell unlisted">7</div><div class="date-cell unlisted">8</div><div class="date-cell unlisted">9</div><div class="date-cell unlisted">10</div><div class="date-cell weekend">11</div>
-                                <div class="date-cell weekend">12</div><div class="date-cell unlisted">13</div><div class="date-cell unlisted">14</div><div class="date-cell unlisted">15</div><div class="date-cell unlisted">16</div><div class="date-cell unlisted">17</div><div class="date-cell weekend">18</div>
-                            </div>
-                            <div class="calendar-events">
-                                Start of Next Academic Year
-                            </div>
-                            <div class="public-holidays">
-                                6 Jul: Muharram
-                            </div>
-
-                        </div> <div class="legend">
-                            <div class="legend-item"><div class="color-box school-day"></div> School days</div>
-                            <div class="legend-item"><div class="color-box exam-day"></div> Exam days</div>
-                            <div class="legend-item"><div class="color-box weekend"></div> Weekends</div>
-                            <div class="legend-item"><div class="color-box term-holiday"></div> Term holidays / Semester Break</div>
-                            <div class="legend-item"><div class="color-box public-holiday"></div> Public holidays</div>
-                            <div class="legend-item"><div class="color-box prof-dev"></div> Class Test Days</div>
-                        </div>
-
-                    </div> </section>
-                -->
                 <!--This is the section for the Student List and all -->
                 <section id="academic-projects-section" class="ordinances-box" style="display:none;">
                     <h2 class="section-title">Student List</h2>
@@ -462,23 +182,77 @@
              <h2>Time Tables</h2>
              <p class="section-subtitle">Access important Time Table updates for the current Academic Year</p>
              <section class="time-table">
-                
                 <div class="time-table-list">
-                    <span class="bullet"></span>
-                    <p>
-                        <ul>
-                            <li><a href="/time_tables/AIDS.pdf">M.Tech ( Dual Degree ) Artificial Intelligence and Data Science </a></li>
-                            <br>
-                            <li><a href="/time_tables/MSc.pdf"> M.Sc. Data Science and Analytics</a></li>
-                            <br>
-                            <li><a href="/time_tables/Executive.pdf"> Executive M.Tech (Data Science)</a></li>
-                            <br>
-                            <li><a href="/time_tables/M.Tech 2 year.pdf"> M.Tech. ( Data Science / BDA )</a></li>
-                             <br>
-                            <li><a href="/time_tables/MBA.pdf"> MBA ( Business Analytics )</a></li>
-                            
-                        </ul>
-                    </p>
+                    
+                    <!-- Item 1 -->
+                    <div class="timetable-item">
+                        <div class="timetable-icon">
+                            <i class="far fa-file-pdf"></i>
+                        </div>
+                        <div class="timetable-details">
+                            <h3>M.Tech ( Dual Degree ) Artificial Intelligence and Data Science</h3>
+                            <span class="timetable-meta">Academic Year 2026-27</span>
+                        </div>
+                        <a href="/time_tables/AIDS.pdf" target="_blank" class="timetable-btn">
+                            View PDF <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timetable-item">
+                        <div class="timetable-icon">
+                            <i class="far fa-file-pdf"></i>
+                        </div>
+                        <div class="timetable-details">
+                            <h3>M.Sc. Data Science and Analytics</h3>
+                            <span class="timetable-meta">Academic Year 2026-27</span>
+                        </div>
+                        <a href="/time_tables/MSc.pdf" target="_blank" class="timetable-btn">
+                            View PDF <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timetable-item">
+                        <div class="timetable-icon">
+                            <i class="far fa-file-pdf"></i>
+                        </div>
+                        <div class="timetable-details">
+                            <h3>Executive M.Tech (Data Science)</h3>
+                            <span class="timetable-meta">Academic Year 2026-27</span>
+                        </div>
+                        <a href="/time_tables/Executive.pdf" target="_blank" class="timetable-btn">
+                            View PDF <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="timetable-item">
+                        <div class="timetable-icon">
+                            <i class="far fa-file-pdf"></i>
+                        </div>
+                        <div class="timetable-details">
+                            <h3>M.Tech. ( Data Science / BDA )</h3>
+                            <span class="timetable-meta">Academic Year 2026-27</span>
+                        </div>
+                        <a href="/time_tables/Mtech( DS BDA) TIMETABLE .pdf" target="_blank" class="timetable-btn">
+                            View PDF <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="timetable-item">
+                        <div class="timetable-icon">
+                            <i class="far fa-file-pdf"></i>
+                        </div>
+                        <div class="timetable-details">
+                            <h3>MBA ( Business Analytics )</h3>
+                            <span class="timetable-meta">Academic Year 2026-27</span>
+                        </div>
+                        <a href="/time_tables/MBA.pdf" target="_blank" class="timetable-btn">
+                            View PDF <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
 
                 </div>
             </section>
@@ -555,14 +329,12 @@
     <!--Non-Teaching Staff-->
     <section class="non-teaching">
         <h2 class="non-teaching-heading">Non-Teaching Staff</h2>
-        <div class="non-teaching-list">
-            <span class="bullet"></span>
-            <p>
-                <ul>
-                    <li><a href="https://drive.google.com/file/d/1ShtUR4CUnFtnsCf5hqC_MMzNgWLl9Pg4/view?usp=sharing">Non_teaching_list</a></li>
-                </ul>
-            </p>
-
+        <div class="notice-list">
+            <div class="notice-item">
+                <div class="notice-text">
+                    <a href="https://drive.google.com/file/d/1ShtUR4CUnFtnsCf5hqC_MMzNgWLl9Pg4/view?usp=sharing" target="_blank">● Non_teaching_list</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -570,37 +342,35 @@
     <!--Visiting Faculty-->
     <section class="visiting-faculty">
         <h2 class="visiting-heading">Visiting Faculty</h2>
-        <div class="visiting-faculty-list">
-            <div class="visiting-item">
-                <span class="bullet"></span>
-                <p>
-                    <ul>
-                    <li><a href="https://drive.google.com/file/d/1JzKcXU2IASK-Ro4XD8ZhSsSrv4nTCtrJ/view?usp=sharing">List of the  Visiting Faculty Members</a></li>
-                    </ul>
-                </p>
+        <div class="notice-list">
+            <div class="notice-item">
+                <div class="notice-text">
+                    <a href="https://drive.google.com/file/d/1JzKcXU2IASK-Ro4XD8ZhSsSrv4nTCtrJ/view?usp=sharing" target="_blank">● List of the  Visiting Faculty Members</a>
+                </div>
             </div>
-            
         </div>
      </section>
 
 
-     <!--The names are same for now as visiting faculty as they are refrring to the same css no need to declare another stuff-->
+     <!--Important Documents-->
      <section class="visiting-faculty">
         <h2 class="visiting-heading">Important Documents</h2>
-        <div class="visiting-faculty-list">
-            <div class="visiting-item">
-                <span class="bullet"></span>
-                <p>
-                    <ul>
-                    <li><a href="https://drive.google.com/file/d/1nOvBq1VpLcgJRAmseQmiuPPDNsnB_AEF/view?usp=sharing">Internship</a></li>
-                    <br>
-                    <li><a href="https://drive.google.com/file/d/13SsEcN1frVuaEt3G8zXF5Kp2n8YW6MpW/view?usp=sharing">Guidelines for Project</a></li>
-                    <br>
-                    <li><a href="https://drive.google.com/file/d/1zEqhvDOp7T6sul2CLxPLWQtCbMlOfJad/view?usp=sharing">Training and Placements</a></li>
-                    </ul>
-                </p>
+        <div class="notice-list">
+            <div class="notice-item">
+                <div class="notice-text">
+                    <a href="https://drive.google.com/file/d/1nOvBq1VpLcgJRAmseQmiuPPDNsnB_AEF/view?usp=sharing" target="_blank">● Internship</a>
+                </div>
             </div>
-            
+            <div class="notice-item">
+                <div class="notice-text">
+                    <a href="https://drive.google.com/file/d/13SsEcN1frVuaEt3G8zXF5Kp2n8YW6MpW/view?usp=sharing" target="_blank">● Guidelines for Project</a>
+                </div>
+            </div>
+            <div class="notice-item">
+                <div class="notice-text">
+                    <a href="https://drive.google.com/file/d/1zEqhvDOp7T6sul2CLxPLWQtCbMlOfJad/view?usp=sharing" target="_blank">● Training and Placements</a>
+                </div>
+            </div>
         </div>
      </section>
     </div> <!-- End faculty-wrapper -->
@@ -648,23 +418,7 @@
             });
     </script>
 
-    <!--Script fot the Palcement so that it opens here -->
-                <script>
-                document.addEventListener("click", (e) => {
-                    const btn = e.target.closest(".ts-btn");
-                    if (!btn) return;
 
-                    e.preventDefault();
-
-                    const wrapper = btn.closest(".ts-wrapper");
-                    wrapper.classList.toggle("open");
-
-                    // close other dropdowns
-                    document.querySelectorAll(".ts-wrapper").forEach(w => {
-                        if (w !== wrapper) w.classList.remove("open");
-                    });
-                });
-                </script>
     <?php include("footer.php"); ?>
 </body>
 </html>
